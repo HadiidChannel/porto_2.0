@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=JetBrains+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-highest":"#353436","tertiary-fixed":"#ffdbce","tertiary-container":"#d68565","on-surface-variant":"#bdc9c7","surface-container-high":"#2a2a2b","surface-variant":"#353436","secondary":"#fcb96e","surface-bright":"#39393a","on-secondary":"#482900","on-error":"#690005","surface-container":"#201f20","on-tertiary":"#562007","on-primary":"#003734","primary-container":"#4ea8a1","error":"#ffb4ab","primary":"#7dd6ce","tertiary-fixed-dim":"#ffb599","secondary-container":"#744500","surface-dim":"#131314","on-tertiary-fixed":"#370e00","primary-fixed":"#99f2ea","background":"#131314","surface-container-low":"#1b1b1c","on-surface":"#e5e2e3","inverse-primary":"#006a65","error-container":"#93000a","surface-container-lowest":"#0e0e0f","on-error-container":"#ffdad6","on-secondary-fixed-variant":"#673d00","on-secondary-container":"#f7b66b","inverse-surface":"#e5e2e3","on-primary-container":"#003935","on-primary-fixed":"#00201e","on-background":"#e5e2e3","tertiary":"#ffb599","on-primary-fixed-variant":"#00504c","secondary-fixed":"#ffddbb","surface":"#131314","on-tertiary-fixed-variant":"#72351b","inverse-on-surface":"#303031","primary-fixed-dim":"#7dd6ce","surface-tint":"#7dd6ce","on-tertiary-container":"#572108","on-secondary-fixed":"#2b1700","outline":"#889391","outline-variant":"#3e4947","secondary-fixed-dim":"#fcb96e"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-2xl":"4rem","gutter":"1.5rem","margin":"3rem","space-xs":"0.25rem","space-sm":"0.5rem","space-xl":"2.5rem","space-md":"1rem","space-lg":"1.5rem","gutter-mobile":"1rem","margin-mobile":"1.25rem"},"fontFamily":{"headline-xl-mobile":["Newsreader"],"headline-lg-mobile":["Newsreader"],"body-sm":["Hanken Grotesk"],"body-lg":["Hanken Grotesk"],"label-md":["JetBrains Mono"],"code-inline":["JetBrains Mono"],"headline-xl":["Newsreader"],"headline-md":["Newsreader"],"body-md":["Hanken Grotesk"],"headline-sm":["Newsreader"],"headline-lg":["Newsreader"],"label-lg":["JetBrains Mono"]},"fontSize":{"headline-xl-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"400"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"30px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"500"}],"code-inline":["13px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-xl":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"400"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-surface-container-highest selection:text-primary"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-16 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-0"><div class="flex flex-col min-w-0"><a class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate hover:text-primary transition-colors" data-path="tentang" href="#">Hadiid Ar Raad</a><span class="font-label-md text-label-md text-on-surface-variant truncate uppercase tracking-wider">Web Developer</span></div><div class="hidden xl:flex items-center gap-space-xs pl-space-md"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span><span class="font-label-md text-label-md text-primary">Tersedia untuk proyek dan kerja sama</span></div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-medium rounded"><a aria-current="page" class="px-space-sm py-1 transition-colors bg-surface-container text-primary font-medium rounded" data-path="tentang" href="#">Tentang</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-sm py-1 rounded transition-colors" data-path="pengalaman" href="#">Pengalaman</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-sm py-1 rounded transition-colors" data-path="featured" href="#">Featured</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-sm py-1 rounded transition-colors" data-path="7-proyek" href="#">7 Proyek</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-sm py-1 rounded transition-colors" data-path="kontak" href="#">Kontak</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-sm py-1 rounded transition-colors" data-path="cv" href="#">CV</a></nav><div class="flex items-center gap-space-md"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full">
+<!-- Top Ambient Workshop Space -->
+<section class="w-full py-space-2xl bg-surface-container-lowest">
+<div class="max-w-6xl mx-auto px-gutter">
+<!-- Meta Badge & Location Pin -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-lg">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-primary">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>STUDIO KERJA MANDIRI / MAKASSAR, INDONESIA</span>
+</div>
+<div class="font-label-md text-label-md text-on-surface-variant flex items-center gap-space-sm">
+<span>LAT -5.14766</span>
+<span class="text-surface-container-highest">/</span>
+<span>LONG 119.43273</span>
+<span class="text-surface-container-highest">/</span>
+<span class="text-secondary">EST. 2024</span>
+</div>
+</div>
+<!-- Hero Header & Statement -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl pt-space-md items-start">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Catatan Kerja &amp; Rekayasa Perangkat Lunak</span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Membangun sistem web yang tenang, efisien, dan berakar pada arsitektur data yang kokoh.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl pt-space-xs">
+            Saya Hadiid Ar Raad, lulusan Teknik Informatika yang mengutamakan presisi logika, kejelasan basis data, dan performa nyata daripada gimik visual berlebihan. Terbiasa menyelesaikan masalah bisnis lewat kode bersih, mulai dari backend berbasis PHP/Laravel hingga integrasi telemetri IoT.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary text-on-primary font-body-sm text-body-sm font-medium rounded hover:bg-primary-container transition-colors" href="#kontak">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span>Hubungi Saya</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container text-on-surface font-body-sm text-body-sm rounded hover:bg-surface-container-high transition-colors" href="#katalog-proyek">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span>Telusuri 7 Proyek</span>
+</a>
+<span class="font-label-md text-label-md text-on-surface-variant pl-space-xs flex items-center gap-space-xs">
+<span class="text-secondary font-bold">IPK 3,74</span>
+<span>(Predikat Pujian, UMI)</span>
+</span>
+</div>
+</div>
+<!-- Right Side Quick Index Card -->
+<div class="lg:col-span-4 bg-surface-container p-space-lg rounded shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Status Workshop</span>
+<span class="font-label-md text-label-md text-primary bg-surface-container-highest px-2 py-0.5 rounded">AKTIF</span>
+</div>
+<div class="space-y-space-sm font-body-sm text-body-sm">
+<div class="flex justify-between items-baseline gap-space-xs">
+<span class="text-on-surface-variant font-label-md text-label-md">Fokus Utama:</span>
+<span class="text-on-surface text-right font-medium">Backend Engineering &amp; Web Systems</span>
+</div>
+<div class="flex justify-between items-baseline gap-space-xs">
+<span class="text-on-surface-variant font-label-md text-label-md">Sertifikasi:</span>
+<span class="text-on-surface text-right font-medium">Azure Data Fundamentals (DP-900)</span>
+</div>
+<div class="flex justify-between items-baseline gap-space-xs">
+<span class="text-on-surface-variant font-label-md text-label-md">Magang Industri:</span>
+<span class="text-on-surface text-right font-medium">Divisi MIS, Bank Sulselbar</span>
+</div>
+<div class="flex justify-between items-baseline gap-space-xs">
+<span class="text-on-surface-variant font-label-md text-label-md">Repositori:</span>
+<span class="text-on-surface text-right font-mono text-primary font-medium">github.com/hadiid-ra</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<div class="p-space-sm bg-surface-container-lowest rounded flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">verified_user</span>
+<p class="font-label-md text-label-md text-on-surface-variant leading-tight">
+                Komitmen pada penulisan kode tanpa beban dependensi yang tidak esensial.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Personal Profile & Philosophy Deep Dive -->
+<section class="w-full py-space-2xl bg-surface" id="profil">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="flex flex-col gap-space-xs pb-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 01 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Tentang Pengembang</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Di Balik Meja Kerja &amp; Rekayasa Logika
+        </h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left: Archival Portrait Container -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative bg-surface-container-low p-space-sm rounded shadow-sm">
+<!-- Simulated Film Border & Plate Tag -->
+<div class="flex items-center justify-between pb-space-xs px-1 text-on-surface-variant font-label-md text-label-md">
+<span>PORTRAIT INDEKS // HR-01</span>
+<span>KODAK ARCHIVE 400</span>
+</div>
+<div class="relative overflow-hidden rounded bg-surface-container-highest aspect-[4/5] flex items-center justify-center">
+<img class="w-full h-full object-cover filter contrast-[1.03] brightness-[0.98]" data-alt="Editorial portrait of Indonesian young male software engineer Hadiid Ar Raad, sitting in a dim warm minimalist room with soft charcoal ambient light, wearing a dark casual shirt, calm confident thoughtful expression, natural analog film grain, subdued tones, soft studio illumination from left side, authentic and quiet mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL_OJ28VYPfvUZJCZXcbtjEs8R-tuS6XRrFcC6t-XthtluQZaJIkG-Ok2Juax5aj1cxtl85VvQ5_Ucc3I3wFwMrdef-Vkcevn9P4WJxXAcWiXJ5a4hRV_RHnjHat5pOmdWDyRTZTKKMra0PWwBYdqLe5TqNmL0dSb77SWlRZhEhu5oKYlRIzPRJCttqHKh6Gx0wxNePWVhGDp74ExLA4dCezOmqqXQFXmbmFQF_ljuf6DcCDjQb1lc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 text-on-surface font-label-md text-label-md bg-surface/80 backdrop-blur-sm p-2 rounded flex items-center justify-between">
+<span>Hadiid Ar Raad, S.Kom.</span>
+<span class="text-primary font-mono">119.4° E, Makassar</span>
+</div>
+</div>
+<div class="pt-space-sm px-1 flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Universitas Muslim Indonesia (2020-2024)</span>
+<span class="text-secondary">Yudisium Pujian</span>
+</div>
+</div>
+<!-- Quick Quote / Manifesto snippet -->
+<div class="p-space-md bg-surface-container-low rounded">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider block mb-space-xs">Catatan Personal</span>
+<p class="font-headline-sm text-headline-sm text-on-surface italic">
+              "Kerapian skema relasional di balik layar jauh lebih menenangkan daripada ratusan baris efek visual yang memperlambat pemuatan halaman."
+            </p>
+</div>
+</div>
+<!-- Right: Comprehensive Story, Credentials, & Mindset -->
+<div class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- Narrative Intro -->
+<div class="space-y-space-md font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Perjalanan saya dalam rekayasa perangkat lunak dimulai dari ketertarikan mendalam pada bagaimana data bergerak, disimpan, dan disajikan secara andal ke hadapan pengguna. Saya menyelesaikan studi di program studi Teknik Informatika, Universitas Muslim Indonesia dengan raihan IPK 3,74, menyelesaikan tugas akhir yang menghubungkan telemetri mikrokontroler dengan antarmuka web waktu nyata.
+            </p>
+<p>
+              Bagi saya, menulis kode bukan sekadar merangkai pustaka pihak ketiga. Ada kepuasan tersendiri saat merancang relasi tabel ternormalisasi di MySQL, menyusun query efisien, mengamankan input pengguna dari celah injeksi, serta memastikan beban komputasi server tetap stabil di bawah skenario pengujian nyata.
+            </p>
+</div>
+<!-- Academic & Professional Milestones Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<div class="p-space-md bg-surface-container rounded flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span>PENDIDIKAN FORMAL</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Teknik Informatika</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Universitas Muslim Indonesia (UMI)</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface">IPK 3,74</span>
+<span class="text-secondary bg-surface-container-highest px-2 py-0.5 rounded">Dengan Pujian</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">badge</span>
+<span>PENGALAMAN KERJA / MAGANG</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Divisi MIS</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">PT Bank Sulselbar (Kantor Pusat)</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface">Management Information</span>
+<span class="text-on-surface-variant font-mono">Makassar</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">workspace_premium</span>
+<span>SERTIFIKASI RESMI</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Azure Data Fundamentals</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Microsoft Certified (DP-900)</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface">Cloud Data Services</span>
+<span class="text-primary font-mono">Microsoft ID</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">explore</span>
+<span>ARAH PROFESIONAL</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Software Engineering</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sistem Berkelanjutan &amp; Layanan Web</p>
+<div class="mt-auto pt-space-sm flex items-center justify-between font-label-md text-label-md">
+<span class="text-on-surface">Data Pipelines &amp; API</span>
+<span class="text-secondary font-mono">Siap Kontribusi</span>
+</div>
+</div>
+</div>
+<!-- Grouped Technical Stack -->
+<div class="p-space-lg bg-surface-container-low rounded space-y-space-md">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider block">
+              Gugus Kemampuan Teknis (Technical Toolset)
+            </span>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="space-y-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Backend &amp; Database
+                </span>
+<ul class="font-label-md text-label-md text-on-surface-variant space-y-1">
+<li>PHP 8.x (Native &amp; MVC)</li>
+<li>Laravel 10 / 11</li>
+<li>MySQL &amp; Relational Design</li>
+<li>RESTful API Architecture</li>
+<li>Session &amp; Auth Security</li>
+</ul>
+</div>
+<div class="space-y-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                  Frontend &amp; Komponen
+                </span>
+<ul class="font-label-md text-label-md text-on-surface-variant space-y-1">
+<li>Laravel Livewire 3</li>
+<li>Alpine.js</li>
+<li>Vanilla JavaScript (ES6+)</li>
+<li>Tailwind CSS Utility</li>
+<li>Semantic HTML5 &amp; Accessible UI</li>
+</ul>
+</div>
+<div class="space-y-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  Cloud &amp; Telemetri
+                </span>
+<ul class="font-label-md text-label-md text-on-surface-variant space-y-1">
+<li>Microsoft Azure Fundamentals</li>
+<li>Firebase Realtime Database</li>
+<li>ESP32 MCU Telemetry</li>
+<li>Git Version Control</li>
+<li>Linux Environment (Basic)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Engineering Mindset & Working Protocol -->
+<section class="w-full py-space-2xl bg-surface-container-lowest">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="flex flex-col gap-space-xs pb-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 02 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Prinsip Rekayasa</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Cara Berpikir dan Protokol Kerja
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Menghindari tebak-tebakan dalam pengembangan. Setiap masalah diuraikan menjadi langkah logis yang dapat diuji dan dipelihara dalam jangka panjang.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-md">
+<div class="p-space-md bg-surface-container rounded flex flex-col justify-between gap-space-md">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary font-mono">FASE 01</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">search_check</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface pb-1">Pahami Masalah</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Membedah proses bisnis secara objektif. Mengidentifikasi siapa pemakai sebenarnya dan apa batasan fungsional yang krusial sebelum mengetik kode.
+            </p>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono text-[10px]">OUTPUT: SPESIFIKASI JELAS</span>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col justify-between gap-space-md">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary font-mono">FASE 02</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">schema</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface pb-1">Petakan Alur</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Merancang skema database berelasi, relasi entitas, tipe data kolom, dan alur state data dari form pengguna hingga tabel penyimpanan.
+            </p>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono text-[10px]">OUTPUT: SKEMA &amp; DIAGRAM RELASI</span>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col justify-between gap-space-md">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary font-mono">FASE 03</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">code</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface pb-1">Bangun Bertahap</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Implementasi modul secara modular. Mengutamakan logika inti terlebih dahulu, diikuti validasi ketat dan penyempurnaan antarmuka pengguna.
+            </p>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono text-[10px]">OUTPUT: MODUL TERISOLASI</span>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col justify-between gap-space-md">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary font-mono">FASE 04</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">bug_report</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface pb-1">Uji Batasan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Memasukkan data ekstrem, uji latensi koneksi, potensi kebocoran input teks kotor (XSS), serta verifikasi kalkulasi matematika server.
+            </p>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono text-[10px]">OUTPUT: STABILITAS KASUS EKSTREM</span>
+</div>
+<div class="p-space-md bg-surface-container rounded flex flex-col justify-between gap-space-md">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary font-mono">FASE 05</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">menu_book</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface pb-1">Dokumentasikan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Mencatat instruksi setup environment, struktur migration, konfigurasi endpoint, dan catatan pemeliharaan agar mudah diteruskan.
+            </p>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono text-[10px]">OUTPUT: REPO DENGAN README LENGKAP</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1: Featured Deep-Dive Projects (3 Core Cases) -->
+<section class="w-full py-space-2xl bg-surface" id="featured">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="flex flex-col gap-space-xs pb-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 03 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Kajian Proyek Utama</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Studi Rekayasa &amp; Implementasi Arsitektur
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Tiga proyek pilihan dengan rincian arsitektur sistem, tantangan nyata di lapangan, serta solusi komputasi yang diterapkan.
+        </p>
+</div>
+<div class="flex flex-col gap-space-2xl">
+<!-- FEATURED 01: Geofencing Attendance -->
+<article class="bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs font-label-md text-label-md">
+<span class="text-primary font-bold">PROYEK 01</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-secondary">SISTEM PRESENSI &amp; VERIFIKASI KOORDINAT</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-on-surface-variant">2024</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+                Sistem Absensi Karyawan Berbasis Geofencing
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Mencegah kecurangan presisi kehadiran mobile pada lokasi kantor terdistribusi. Dibangun menggunakan Laravel 10 dengan Livewire 3 dan Alpine.js, sistem secara kontinyu memvalidasi letak geografis karyawan menggunakan formula lingkaran bola Haversine dengan interval sinkronisasi 15 detik tanpa membebani browser.
+              </p>
+<!-- Technical Callout Box: The Haversine Formula Implementation -->
+<div class="p-space-md bg-surface-container-lowest rounded font-code-inline text-code-inline text-on-surface space-y-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-md text-label-md border-b border-surface-container-highest pb-1">
+<span>LOGIKA HAVERSINE (PHP NATIVE / SERVICE CLASS)</span>
+<span class="text-primary">RADIUS VALIDASI: 50 METER</span>
+</div>
+<div class="text-on-surface-variant font-mono text-xs leading-relaxed overflow-x-auto py-1">
+<span class="text-secondary">$dLat</span> = deg2rad($latEmp - $latOffice);<br/>
+<span class="text-secondary">$dLon</span> = deg2rad($lonEmp - $lonOffice);<br/>
+<span class="text-primary">$a</span> = sin($dLat/2)**2 + cos(deg2rad($latOffice)) * cos(deg2rad($latEmp)) * sin($dLon/2)**2;<br/>
+<span class="text-primary">$jarakMeter</span> = 6371000 * (2 * atan2(sqrt($a), sqrt(1 - $a)));
+                </div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm pt-space-xs font-label-md text-label-md">
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Stack Inti:</span>
+<span class="text-on-surface font-medium">Laravel 10, Livewire 3</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Client Script:</span>
+<span class="text-on-surface font-medium">Alpine.js Geolocation</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Verifikasi:</span>
+<span class="text-primary font-medium">Radius Haversine 50m</span>
+</div>
+</div>
+</div>
+<!-- Visual Asset Mockup -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded">
+<div class="flex items-center justify-between pb-space-xs font-label-md text-label-md text-on-surface-variant">
+<span>ANTARMUKA MONITORING RADAR</span>
+<span class="text-primary font-mono">LATENSI &lt; 200MS</span>
+</div>
+<div class="relative rounded overflow-hidden aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Technical clean dashboard screen showing geographic attendance radar, radius circles around office location, employee pin points, telemetry log table with latitude and longitude data, dark UI theme with teal and warm amber markers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDctXBQUPkJT0PVGnanE2YD8_C5YqL9KXspoGraJT1B0NAPlVfMXPbtKe_DSb48ZGToslT5wG0CklsyqyPvq8bVSKb9MLbDKEkdrNBa7WadZCAmIRaADiEOhFyFbIdMW6BIgArg-H4dWrhuZQME9kxe694m55dRza58ftHJ-_m40PRDrYa0Zin2xi5xJSJi34OTnOJxLObqwrEnrZxTn4fNCzfAzHpqCnmw0yU329d7zsBV4po3jjZ-"/>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container rounded flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Database: MySQL (Spatial Indexing)</span>
+<span class="text-secondary">Status: Selesai &amp; Teruji</span>
+</div>
+</div>
+</div>
+</article>
+<!-- FEATURED 02: Anonymous Real-Time Chat -->
+<article class="bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs font-label-md text-label-md">
+<span class="text-primary font-bold">PROYEK 02</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-secondary">KOMUNIKASI EVENT-DRIVEN &amp; KEMANAN SESI</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-on-surface-variant">2023</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+                Anonymous Real-Time Chat Platform
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Platform obrolan instan tanpa keharusan membuat identitas permanen, meminimalkan jejak digital pribadi pengguna. Dibangun dengan basis PHP murni (Native) untuk membuktikan pemahaman mendalam atas manipulasi HTTP state, dipadukan dengan Firebase Realtime Database sebagai engine sinkronisasi pesan paralel antar-klien.
+              </p>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-start gap-space-xs">
+<span class="text-primary font-bold">•</span>
+<span><strong>Sanitasi XSS Berlapis:</strong> Seluruh muatan teks disanitasi menggunakan fungsi kustom sebelum masuk ke simpul Firebase, mencegah injeksi skrip HTML jahat.</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="text-primary font-bold">•</span>
+<span><strong>Sesi Ephemeral:</strong> Identitas ruang obrolan dibuat menggunakan token acak terenkripsi yang kadaluwarsa saat tab browser ditutup.</span>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="text-primary font-bold">•</span>
+<span><strong>Ringan Dependensi:</strong> Tidak bergantung pada runtime Node.js server besar, cukup server PHP terpasang umum.</span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm pt-space-xs font-label-md text-label-md">
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Backend:</span>
+<span class="text-on-surface font-medium">PHP Native (No Framework)</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Realtime Bus:</span>
+<span class="text-on-surface font-medium">Firebase RTDB SDK</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Payload:</span>
+<span class="text-primary font-medium">Sanitized JSON Strings</span>
+</div>
+</div>
+</div>
+<!-- Visual Asset Mockup -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded">
+<div class="flex items-center justify-between pb-space-xs font-label-md text-label-md text-on-surface-variant">
+<span>TERMINAL ENKRIPSI &amp; FEED PESAN</span>
+<span class="text-secondary font-mono">FIREBASE SYNC</span>
+</div>
+<div class="relative rounded overflow-hidden aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Minimalist dark mode chat interface mockup with monospace font, quiet dark grey message bubbles, teal connection indicator dot, timestamp metadata, clean text input box, no emojis or noisy stickers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIltiGPgO8qzmeRtJMc97NIGOAwmmfajonHXpZaISBkeNPPO3EInhTMTSKeOA7_7gRCc5LBZQsFxMk6a1TO7BSTaWSLjJETCAtYMrRqNDfHoPv69GKO-PQKlUYvTJXGVUkyoFbP4280-BIJ0nEZ3y1e07VKtmTqtiF4EqLSgnbrNCQkRrsSYFPT0hiMGTDMm-_sTqD-FiKpIbTSa8kRYBuCKF06gf_8m13viZHgRp4Ey8WLX6MTpIi"/>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container rounded flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Frontend: Vanilla JS DOM Manipulation</span>
+<span class="text-primary">Selesai &amp; Diuji</span>
+</div>
+</div>
+</div>
+</article>
+<!-- FEATURED 03: Employee Training Management -->
+<article class="bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs font-label-md text-label-md">
+<span class="text-primary font-bold">PROYEK 03</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-secondary">SISTEM INFORMASI ENTERPRISE &amp; KOMPETENSI</span>
+<span class="text-on-surface-variant">/</span>
+<span class="text-on-surface-variant">2024</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+                Sistem Manajemen Pelatihan Pegawai
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Aplikasi internal untuk mengelola sertifikasi, kurikulum bertahap, dan pemantauan kelulusan kompetensi staf institusi. Dibangun dengan arsitektur Laravel dan relasi database terstruktur untuk memastikan riwayat pengembangan bakat SDM tercatat rapi tanpa duplikasi data.
+              </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm font-body-sm text-body-sm">
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-primary font-mono font-medium block">Multi-Tier Role Guard:</span>
+<span class="text-on-surface-variant">Pemisahan otorisasi antara peserta pelatihan, instruktur penguji, dan pejabat penilai sumber daya manusia.</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-primary font-mono font-medium block">Laporan Kelulusan Otomatis:</span>
+<span class="text-on-surface-variant">Generator rekap kelayakan kompetensi berbasis bobot nilai pre-test dan evaluasi akhir modul.</span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm pt-space-xs font-label-md text-label-md">
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Framework:</span>
+<span class="text-on-surface font-medium">Laravel &amp; Eloquent ORM</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Database:</span>
+<span class="text-on-surface font-medium">MySQL Terstruktur (InnoDB)</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded">
+<span class="text-on-surface-variant block">Desain UI:</span>
+<span class="text-on-surface font-medium">Tailwind CSS Responsive</span>
+</div>
+</div>
+</div>
+<!-- Visual Asset Mockup -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded">
+<div class="flex items-center justify-between pb-space-xs font-label-md text-label-md text-on-surface-variant">
+<span>PANEL EVALUASI KOMPETENSI PEGAWAI</span>
+<span class="text-primary font-mono">ROLE-BASED ACL</span>
+</div>
+<div class="relative rounded overflow-hidden aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Enterprise dark corporate dashboard screenshot showing employee training milestones, certification progress bars, data table with employee ID, department, score badges, clean minimalist layout." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3YJ3tKYC2-Qzfx7PwqMBNHaXiZFowJcfdiqIvmIFKhs8TfxUROhdWWl4d-5XbbKi1gKwj5qRWG-2ygFOU9YjVrWf7Hhe00osLzTIQrnOXP6n7eSD5HNpVzjVKm-UFgKn9UBBnW6pVI7olzy18cnGImV1DjBW-anCEbfDLcI1agc2FLxcxf_XkoC0pMTre7f5-pURMl8LgAqV_PtVCXc21Pj1UD6k9OOOGftX3ll-RK2-YUsai8ruD"/>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container rounded flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Fokus: Ketelitian Relasi Antar Tabel</span>
+<span class="text-secondary font-mono">PRODUKSI INTERNAL</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section 2: Complete Catalog of ALL 7 PROJECTS (Mandatory 01-07) -->
+<section class="w-full py-space-2xl bg-surface-container-lowest" id="katalog-proyek">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="flex flex-col gap-space-xs pb-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 04 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Katalog Lengkap Seluruh Repositori</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              Katalog Lengkap 7 Proyek Workshop
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+              Daftar seluruh 7 inisiatif rekayasa perangkat lunak, mulai dari sistem siap pakai hingga eksplorasi arsitektur data aktif di workbench.
+            </p>
+</div>
+<div class="font-label-md text-label-md text-on-surface-variant bg-surface-container px-3 py-1.5 rounded flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>TOTAL: TEPAT 7 REKAYASA TERDAFTAR</span>
+</div>
+</div>
+</div>
+<!-- Seven Items Structured Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- PROJECT 01 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-primary font-mono font-bold text-[13px]">PROYEK 01</span>
+<span class="text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded">STABIL</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Sistem Absensi Karyawan Berbasis Geofencing
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Presensi pegawai jarak jauh dengan verifikasi koordinat Haversine berkala setiap 15 detik, mencegah manipulasi spoofing GPS.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">Laravel 10</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Livewire 3</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Alpine.js</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">MySQL</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: Geolocation Service</span>
+<span class="text-primary font-mono">2024</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 02 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-primary font-mono font-bold text-[13px]">PROYEK 02</span>
+<span class="text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded">STABIL</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Anonymous Real-Time Chat Platform
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Komunikasi anonim tanpa rekam identitas permanen. Sanitasi payload XSS ketat pada PHP Native yang disinkronisasi lewat Firebase RTDB.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">PHP Native</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Firebase RTDB</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">JavaScript ES6</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: Event-driven Realtime</span>
+<span class="text-primary font-mono">2023</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 03 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-primary font-mono font-bold text-[13px]">PROYEK 03</span>
+<span class="text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded">STABIL</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Sistem Manajemen Pelatihan Pegawai
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Manajemen sertifikasi dan kurikulum pelatihan SDM. Dilengkapi role multi-akses bertingkat dan perhitungan kelulusan otomatis.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">Laravel</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">MySQL Relasional</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Tailwind CSS</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: Role-Based ACL</span>
+<span class="text-primary font-mono">2024</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 04 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-primary font-mono font-bold text-[13px]">PROYEK 04</span>
+<span class="text-secondary bg-surface-container-lowest px-2 py-0.5 rounded">TUGAS AKHIR</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Sistem Monitoring IoT &amp; Web Dashboard
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Integrasi node sensor berbasis mikrokontroler ESP32 mengirim data telemetri berkala lewat protokol REST HTTP ke antarmuka analitik web.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">ESP32 MCU</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">REST API Endpoint</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">PHP / C++</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Chart.js</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: Hardware Telemetry Bus</span>
+<span class="text-secondary font-mono">2024</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 05 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-mono font-bold text-[13px]">PROYEK 05</span>
+<span class="text-primary bg-surface-container-lowest px-2 py-0.5 rounded">AKTIF DIRANCANG</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Audit Log &amp; Request Profiler Engine
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Modul internal Laravel untuk mencatat trace mutasi data tabel secara mendalam dan mendeteksi query N+1 sebelum masuk ke repositori utama.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">Laravel Middleware</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Database Trigger</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Event Listener</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: Query Profiling</span>
+<span class="text-on-surface-variant font-mono">Modul Rilis Berikutnya</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 06 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-mono font-bold text-[13px]">PROYEK 06</span>
+<span class="text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded">EKSPLORASI ARSITEKTUR</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+              Data Pipeline &amp; Batch Ingestion Pipeline
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Penerapan prinsip Microsoft Azure Data Fundamentals untuk mengotomasi pembersihan rekaman CSV berukuran besar ke database ternormalisasi.
+            </p>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">Azure Storage</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">SQL Database</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Batch Chunking</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Arsitektur: ETL Data Ingestion</span>
+<span class="text-on-surface-variant font-mono">Studi Kasus Cloud</span>
+</div>
+</div>
+</div>
+<!-- PROJECT 07 -->
+<div class="p-space-lg bg-surface-container rounded flex flex-col justify-between gap-space-md transition-colors hover:bg-surface-container-high md:col-span-2 lg:col-span-3">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<div class="md:col-span-8 space-y-space-xs">
+<div class="flex items-center gap-space-sm font-label-md text-label-md">
+<span class="text-secondary font-mono font-bold text-[13px]">PROYEK 07</span>
+<span class="text-primary bg-surface-container-lowest px-2 py-0.5 rounded">EKSPERIMEN AKTIF WORKSHOP</span>
+<span class="text-on-surface-variant font-mono">LABORATORIUM WEB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface pt-1">
+                Quiet Workshop Design System &amp; Accessible Component Kit
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Eksperimen antarmuka personal dengan rasio kontras tinggi yang bersahabat untuk mata pemrogram saat malam hari. Menggunakan Tailwind CSS tanpa ketergantungan framework CSS pihak ketiga yang berat, berfokus pada ritme tipografi dan ketahanan DOM.
+              </p>
+</div>
+<div class="md:col-span-4 flex flex-col gap-space-xs">
+<div class="flex flex-wrap gap-1 font-label-md text-label-md text-on-surface-variant">
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded text-on-surface">Tailwind CSS</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Semantic HTML5</span>
+<span class="bg-surface-container-lowest px-2 py-0.5 rounded">Typography Token</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest">
+<span>Status: Iterasi Mandiri</span>
+<span class="text-primary font-mono">Live di Portofolio Ini</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Detailed Career & Education Timeline Section -->
+<section class="w-full py-space-2xl bg-surface" id="pengalaman">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="flex flex-col gap-space-xs pb-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 05 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Rekam Jejak &amp; Pengalaman</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Kronologi Pendidikan &amp; Praktik Profesional
+        </h2>
+</div>
+<div class="space-y-space-lg">
+<!-- Timeline Item 1: Bank Sulselbar -->
+<div class="p-space-lg bg-surface-container-low rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<div class="lg:col-span-3 flex flex-col font-label-md text-label-md text-on-surface-variant">
+<span class="text-primary font-mono font-medium">MAGANG INDUSTRI</span>
+<span class="text-on-surface text-body-sm font-medium pt-1">Divisi MIS</span>
+<span>PT Bank Sulselbar</span>
+<span class="text-on-surface-variant mt-2 font-mono">Makassar, Indonesia</span>
+</div>
+<div class="lg:col-span-9 space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Praktik Kerja Lapangan: Management Information System
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Terlibat dalam lingkungan operasional sistem perbankan daerah. Mengamati dan mempelajari standardisasi tata kelola informasi, validitas data transaksi internal, serta pentingnya integritas skema database pada skala institusi finansial yang menuntut keandalan tingkat tinggi tanpa toleransi kesalahan data.
+              </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs font-label-md text-label-md">
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Data Governance</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Enterprise Information Flow</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Database Integrity Check</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Timeline Item 2: Universitas Muslim Indonesia -->
+<div class="p-space-lg bg-surface-container-low rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<div class="lg:col-span-3 flex flex-col font-label-md text-label-md text-on-surface-variant">
+<span class="text-secondary font-mono font-medium">STRATA SATU (S1)</span>
+<span class="text-on-surface text-body-sm font-medium pt-1">Teknik Informatika</span>
+<span>Universitas Muslim Indonesia</span>
+<span class="text-secondary mt-2 font-mono">IPK 3,74 (Pujian)</span>
+</div>
+<div class="lg:col-span-9 space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Lulus Sarjana Komputer dengan Fokus Rekayasa Perangkat Lunak
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Menyelesaikan studi dengan kurikulum komprehensif mencakup algoritma pemrograman, struktur data, perancangan sistem berorientasi objek, keamanan sistem informasi, dan teknologi jaringan. Menuntaskan penelitian tugas akhir berbasis telemetri IoT dan dasbor web pemantauan.
+              </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs font-label-md text-label-md">
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Rekayasa Perangkat Lunak</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Struktur Data &amp; Algoritma</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Basis Data Relasional</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Timeline Item 3: Microsoft Certification -->
+<div class="p-space-lg bg-surface-container-low rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<div class="lg:col-span-3 flex flex-col font-label-md text-label-md text-on-surface-variant">
+<span class="text-primary font-mono font-medium">SERTIFIKASI GLOBAL</span>
+<span class="text-on-surface text-body-sm font-medium pt-1">Microsoft Certified</span>
+<span>Azure Fundamentals</span>
+<span class="text-on-surface-variant mt-2 font-mono">Ujian DP-900</span>
+</div>
+<div class="lg:col-span-9 space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+                Microsoft Certified: Azure Data Fundamentals
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Memvalidasi kompetensi fundamental seputar pemrosesan data relasional dan non-relasional di cloud Azure, konsep pergudangan data modern, analitik beban kerja (workload processing), serta praktik keamanan penyimpanan data terdistribusi.
+              </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs font-label-md text-label-md">
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Azure SQL</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Cosmos DB Concepts</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Data Warehousing</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Terminal / Code Specimen Section -->
+<section class="w-full py-space-2xl bg-surface-container-lowest">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 06 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Inspeksi Workshop</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+            Karakteristik Kode: Rapi, Terukur, &amp; Terbaca
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Setiap baris kode ditulis dengan mempertimbangkan rekan pengembang berikutnya yang akan membaca repositori. Penamaan variabel yang representatif, validasi kondisi batas sebelum mengeksekusi logika utama, dan penanganan kegagalan secara terencana.
+          </p>
+<div class="p-space-sm bg-surface-container rounded flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">code_blocks</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Standard PSR-12, Strict Types, Sanitasi Input Default</span>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface-container-low p-space-md rounded shadow-sm">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container-highest font-label-md text-label-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-mono text-on-surface pl-2">app/Services/GeofenceVerificationService.php</span>
+</div>
+<span class="font-mono text-xs">PHP 8.2</span>
+</div>
+<div class="pt-space-sm font-code-inline text-code-inline text-on-surface overflow-x-auto">
+<pre class="font-mono text-xs leading-relaxed text-on-surface-variant"><span class="text-secondary">&lt;?php</span>
+
+<span class="text-primary-container">namespace</span> App\Services;
+
+<span class="text-on-surface">final class</span> <span class="text-primary">GeofenceVerificationService</span>
+{
+    <span class="text-on-surface-variant">// Radius maksimum kehadiran yang diizinkan (dalam satuan meter)</span>
+    <span class="text-primary-container">private const</span> MAX_ALLOWED_DISTANCE_METERS = <span class="text-secondary">50.0</span>;
+
+    <span class="text-on-surface">public function</span> <span class="text-primary">verifyCoordinates</span>(
+        <span class="text-secondary">float</span> <span class="text-on-surface">$employeeLat</span>,
+        <span class="text-secondary">float</span> <span class="text-on-surface">$employeeLon</span>,
+        <span class="text-secondary">float</span> <span class="text-on-surface">$officeLat</span>,
+        <span class="text-secondary">float</span> <span class="text-on-surface">$officeLon</span>
+    ): <span class="text-secondary">bool</span> {
+        <span class="text-on-surface">$distance</span> = <span class="text-on-surface">$this</span>-&gt;calculateHaversine(
+            <span class="text-on-surface">$employeeLat</span>, <span class="text-on-surface">$employeeLon</span>, 
+            <span class="text-on-surface">$officeLat</span>, <span class="text-on-surface">$officeLon</span>
+        );
+
+        <span class="text-primary-container">return</span> <span class="text-on-surface">$distance</span> &lt;= <span class="text-primary-container">self</span>::MAX_ALLOWED_DISTANCE_METERS;
+    }
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Contact & Collaborative Gateway -->
+<section class="w-full py-space-2xl bg-surface" id="kontak">
+<div class="max-w-6xl mx-auto px-gutter">
+<div class="p-space-xl bg-surface-container-low rounded shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-primary tracking-wider">[ 07 ]</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Hubungi Workshop</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              Mulai Diskusi Rekayasa atau Penugasan Proyek
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Saya terbuka untuk kesempatan kerja penuh waktu (Software Engineer / Backend Developer), kontrak pengembangan modul web, atau kolaborasi perancangan sistem berbasis data. Kirimkan pesan singkat mengenai kebutuhan teknis Anda.
+            </p>
+<div class="pt-space-xs space-y-space-xs font-body-sm text-body-sm">
+<div class="flex items-center gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">alternate_email</span>
+<span class="font-mono">hadiid.arraad@gmail.com</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">pin_drop</span>
+<span>Makassar, Sulawesi Selatan, Indonesia (WITA / UTC+8)</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check_circle</span>
+<span class="text-primary">Tersedia untuk proyek baru dan relokasi kerja remote / on-site</span>
+</div>
+</div>
+<!-- Direct Actions -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-md">
+<a class="px-space-md py-space-sm bg-primary text-on-primary font-body-sm text-body-sm font-medium rounded hover:bg-primary-container transition-colors inline-flex items-center gap-space-xs" href="mailto:hadiid.arraad@gmail.com">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Kirim Surel Langsung</span>
+</a>
+<button class="px-space-md py-space-sm bg-surface-container text-on-surface font-body-sm text-body-sm rounded hover:bg-surface-container-high transition-colors inline-flex items-center gap-space-xs" onclick="alert('Format dokumen CV ringkas Hadiid Ar Raad (PDF) sedang disiapkan untuk pengunduhan langsung. Silakan hubungi via email untuk berkas terbaru.')" type="button">
+<span class="material-symbols-outlined text-[18px]">description</span>
+<span>Unduh Ringkasan CV</span>
+</button>
+</div>
+</div>
+<!-- Channel Directory List -->
+<div class="lg:col-span-5 bg-surface-container p-space-lg rounded flex flex-col gap-space-md">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
+              Tautan Jaringan Profesional
+            </span>
+<div class="space-y-space-sm font-body-sm text-body-sm">
+<a class="flex items-center justify-between p-space-sm bg-surface-container-low rounded hover:bg-surface-container-high transition-colors group" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors text-[20px]">code</span>
+<span class="text-on-surface">GitHub Profil</span>
+</div>
+<span class="font-mono text-xs text-on-surface-variant group-hover:text-primary transition-colors">→</span>
+</a>
+<a class="flex items-center justify-between p-space-sm bg-surface-container-low rounded hover:bg-surface-container-high transition-colors group" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors text-[20px]">group</span>
+<span class="text-on-surface">LinkedIn Profil</span>
+</div>
+<span class="font-mono text-xs text-on-surface-variant group-hover:text-primary transition-colors">→</span>
+</a>
+<div class="p-space-sm bg-surface-container-lowest rounded space-y-1">
+<span class="font-label-md text-label-md text-secondary block font-mono">INTEGRITAS KODE</span>
+<p class="font-label-md text-label-md text-on-surface-variant leading-relaxed">
+                  Tidak ada kode yang diserahkan tanpa uji fungsionalitas dan sanitasi input dari risiko eksploitasi dasar.
+                </p>
+</div>
+</div>
+<div class="pt-space-xs font-label-md text-label-md text-on-surface-variant border-t border-surface-container-highest flex items-center justify-between">
+<span>Waktu Respon:</span>
+<span class="text-on-surface font-mono">&lt; 24 Jam Kerja</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-2xl shadow-[0_-1px_0_rgba(255,255,255,0.03)]"><div class="max-w-7xl mx-auto px-gutter flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="flex flex-col gap-space-xs"><p class="font-label-lg text-label-lg text-on-surface">© 2025 Hadiid Ar Raad — Workshop Digital</p><p class="font-label-md text-label-md text-on-surface-variant">Dirancang dengan fokus hening, tipografi editorial, dan presisi kode.</p></div><div class="flex flex-wrap items-center gap-space-md font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="kontak" href="#">Email</a><span class="text-surface-container-highest">•</span><a class="hover:text-primary transition-colors" href="#">GitHub</a><span class="text-surface-container-highest">•</span><a class="hover:text-primary transition-colors" href="#">LinkedIn</a><span class="text-surface-container-highest">•</span><a class="hover:text-primary transition-colors" data-path="cv" href="#">Ringkasan CV</a></div></div></footer></body></html>
