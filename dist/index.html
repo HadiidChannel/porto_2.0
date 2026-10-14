@@ -12,8 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 
   <!-- Main Stylesheet -->
-  <script type="module" crossorigin src="/assets/index-D1rA-95W.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Bgfcm6QH.css">
+  <script type="module" crossorigin src="./assets/index-Dd9hHsWS.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Bfgs_9UG.css">
 </head>
 <body>
 
@@ -27,26 +27,38 @@
       <div class="header-brand">
         <div class="brand-text-wrap">
           <a href="#" class="brand-title">Hadiid Ar Raad</a>
-          <span class="brand-role">Web Developer</span>
+          <span class="brand-role">Junior Web Developer</span>
         </div>
         <div class="availability-pill">
           <span class="availability-dot"></span>
-          <span class="availability-text">Tersedia untuk proyek dan kerja sama</span>
+          <span class="availability-text">Kota Makassar, Indonesia</span>
         </div>
       </div>
 
-      <!-- Desktop Navigation Links -->
+      <!-- Desktop Navigation Links (PRD v0.9 Section 10.A: Home, About, Projects, Certificates, Education, Internship, Contact) -->
       <nav class="desktop-nav" aria-label="Navigasi Utama">
-        <a href="#profil" class="nav-link" data-nav="profil">Tentang</a>
-        <a href="#pengalaman" class="nav-link" data-nav="pengalaman">Pengalaman</a>
-        <a href="#featured" class="nav-link" data-nav="featured">Featured</a>
-        <a href="#katalog-proyek" class="nav-link" data-nav="katalog-proyek">7 Proyek</a>
-        <a href="#kontak" class="nav-link" data-nav="kontak">Kontak</a>
-        <a href="#kontak" class="nav-link" data-nav="cv">CV</a>
+        <a href="#hero" class="nav-link" data-nav="hero">Home</a>
+        <a href="#profil" class="nav-link" data-nav="profil">About</a>
+        <a href="#featured" class="nav-link" data-nav="featured">Projects</a>
+        <a href="#sertifikat" class="nav-link" data-nav="sertifikat">Certificates</a>
+        <a href="#pendidikan" class="nav-link" data-nav="pendidikan">Education</a>
+        <a href="#magang" class="nav-link" data-nav="magang">Internship</a>
+        <a href="#kontak" class="nav-link" data-nav="kontak">Contact</a>
       </nav>
 
       <!-- Header Right Controls -->
       <div class="header-right">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Ganti mode terang atau gelap" title="Ganti Mode Tampilan">
+          <svg class="theme-icon-dark" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/>
+          </svg>
+          <svg class="theme-icon-light" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+          </svg>
+          <span class="theme-text-label">Tema</span>
+        </button>
+
         <a href="#profil" class="profile-avatar-btn" title="Tentang Hadiid Ar Raad" aria-label="Profil Hadiid Ar Raad">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
@@ -66,17 +78,26 @@
 
   <!-- Mobile Drawer Menu -->
   <div class="mobile-drawer" id="mobile-menu" aria-hidden="true">
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--border-subtle); margin-bottom: 12px;">
+      <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Preferensi Tampilan</span>
+      <button type="button" class="theme-toggle-btn" id="mobile-theme-toggle" aria-label="Ganti mode terang atau gelap">
+        <svg class="theme-icon-dark" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+        <svg class="theme-icon-light" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+        <span class="theme-text-label">Tema</span>
+      </button>
+    </div>
     <ul class="mobile-nav-list">
-      <li><a href="#hero" class="mobile-nav-item active">Beranda</a></li>
-      <li><a href="#profil" class="mobile-nav-item">Tentang Pengembang</a></li>
-      <li><a href="#prinsip" class="mobile-nav-item">Prinsip Rekayasa</a></li>
-      <li><a href="#featured" class="mobile-nav-item">Featured (3 Proyek Utama)</a></li>
-      <li><a href="#katalog-proyek" class="mobile-nav-item">Katalog Lengkap (7 Proyek)</a></li>
-      <li><a href="#pengalaman" class="mobile-nav-item">Pengalaman &amp; Pendidikan</a></li>
-      <li><a href="#kontak" class="mobile-nav-item">Kontak Workshop</a></li>
+      <li><a href="#hero" class="mobile-nav-item active">Home (Beranda)</a></li>
+      <li><a href="#profil" class="mobile-nav-item">About Me (Profil)</a></li>
+      <li><a href="#featured" class="mobile-nav-item">Projects (Semua 7 Proyek)</a></li>
+      <li><a href="#sertifikat" class="mobile-nav-item">Certificates (Sertifikat)</a></li>
+      <li><a href="#pendidikan" class="mobile-nav-item">Education &amp; Certification</a></li>
+      <li><a href="#magang" class="mobile-nav-item">Internship (Pengalaman Magang)</a></li>
+      <li><a href="#prinsip" class="mobile-nav-item">How I Work (Pendekatan Kerja)</a></li>
+      <li><a href="#kontak" class="mobile-nav-item">Contact (Hubungi)</a></li>
     </ul>
     <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">
-      <div>STATUS: AKTIF &bull; MAKASSAR, ID</div>
+      <div>LOKASI: KOTA MAKASSAR, INDONESIA</div>
       <div style="margin-top: 4px;"><a href="mailto:hadiid.arraad@gmail.com" style="color: var(--accent-teal);">hadiid.arraad@gmail.com</a></div>
     </div>
   </div>
@@ -96,14 +117,14 @@
         <div class="hero-meta-bar">
           <div class="hero-meta-left">
             <span class="pulse-dot"></span>
-            <span>STUDIO KERJA MANDIRI / MAKASSAR, INDONESIA</span>
+            <span>STATUS: AKTIF / KOTA MAKASSAR, INDONESIA</span>
           </div>
           <div class="hero-meta-right">
-            <span>LAT -5.14766</span>
+            <span>TEKNIK INFORMATIKA UMI</span>
             <span style="color: var(--border-line);">/</span>
-            <span>LONG 119.43273</span>
+            <span>PERIODE 2022-2026</span>
             <span style="color: var(--border-line);">/</span>
-            <span style="color: var(--accent-amber);">EST. 2024</span>
+            <span style="color: var(--accent-amber);">IPK 3,74</span>
           </div>
         </div>
 
@@ -117,7 +138,7 @@
               Membangun sistem web yang tenang, efisien, dan berakar pada arsitektur data yang kokoh.
             </h1>
             <p class="font-body-lg hero-desc">
-              Saya Hadiid Ar Raad, lulusan Teknik Informatika yang mengutamakan presisi logika, kejelasan basis data, dan performa nyata daripada gimik visual berlebihan. Terbiasa menyelesaikan masalah bisnis lewat kode bersih, mulai dari backend berbasis PHP/Laravel hingga integrasi telemetri IoT.
+              Saya Hadiid Ar Raad, mahasiswa Teknik Informatika Universitas Muslim Indonesia (periode 2022-2026) dengan raihan IPK 3,74. Mengutamakan presisi logika, kejelasan basis data, dan performa nyata daripada gimik visual berlebihan. Terbiasa menyelesaikan masalah lewat kode bersih, mulai dari backend berbasis PHP/Laravel hingga integrasi telemetri IoT.
             </p>
 
             <div class="hero-actions">
@@ -137,7 +158,7 @@
 
               <span class="gpa-pill">
                 <span class="gpa-val">IPK 3,74</span>
-                <span>(Predikat Pujian, UMI)</span>
+                <span>(UMI, 2022-2026)</span>
               </span>
             </div>
           </div>
@@ -209,7 +230,7 @@
 
             <div class="portrait-frame">
               <img 
-                src="/assets/profile.jpg" 
+                src="./assets/profile-CZfeMnNh.jpg" 
                 alt="Portrait editorial resmi Hadiid Ar Raad, Junior Web Developer lulusan Teknik Informatika UMI beralmamater hijau" 
                 class="portrait-img"
                 loading="eager"
@@ -218,14 +239,14 @@
               >
               <div class="portrait-gradient-overlay"></div>
               <div class="portrait-id-tag">
-                <span>Hadiid Ar Raad, S.Kom.</span>
-                <span style="color: var(--accent-teal);">119.4&deg; E, Makassar</span>
+                <span>Hadiid Ar Raad</span>
+                <span style="color: var(--accent-teal);">Kota Makassar, Indonesia</span>
               </div>
             </div>
 
             <div class="portrait-sub-meta">
-              <span>Universitas Muslim Indonesia (2020-2024)</span>
-              <span style="color: var(--accent-amber); font-weight: 600;">Yudisium Pujian</span>
+              <span>Universitas Muslim Indonesia (2022-2026)</span>
+              <span style="color: var(--accent-amber); font-weight: 600;">IPK 3,74</span>
             </div>
 
             <!-- Personal Manifesto Quote -->
@@ -245,7 +266,7 @@
             <!-- Narrative Paragraphs -->
             <div style="display: flex; flex-direction: column; gap: var(--space-md); color: var(--text-secondary); line-height: 26px;">
               <p class="font-body-md">
-                Perjalanan saya dalam rekayasa perangkat lunak dimulai dari ketertarikan mendalam pada bagaimana data bergerak, disimpan, dan disajikan secara andal ke hadapan pengguna. Saya menyelesaikan studi di program studi Teknik Informatika, Universitas Muslim Indonesia dengan raihan IPK 3,74, menyelesaikan tugas akhir yang menghubungkan telemetri mikrokontroler dengan antarmuka web waktu nyata.
+                Perjalanan saya dalam rekayasa perangkat lunak berakar pada ketertarikan mendalam mengenai bagaimana data diproses, disimpan, dan disajikan secara andal ke hadapan pengguna. Saya menempuh pendidikan di program studi Teknik Informatika, Universitas Muslim Indonesia (periode studi 2022-2026) dengan raihan IPK 3,74, serta menyelesaikan tugas akhir yang menghubungkan telemetri mikrokontroler dengan antarmuka web waktu nyata.
               </p>
               <p class="font-body-md">
                 Bagi saya, menulis kode bukan sekadar merangkai pustaka pihak ketiga. Ada kepuasan tersendiri saat merancang relasi tabel ternormalisasi di MySQL, menyusun query efisien, mengamankan input pengguna dari celah injeksi, serta memastikan beban komputasi server tetap stabil di bawah skenario pengujian nyata.
@@ -262,10 +283,10 @@
                   <span>PENDIDIKAN FORMAL</span>
                 </div>
                 <h3 class="font-headline-sm" style="color: var(--text-primary);">Teknik Informatika</h3>
-                <p class="font-body-sm" style="color: var(--text-muted);">Universitas Muslim Indonesia (UMI)</p>
+                <p class="font-body-sm" style="color: var(--text-muted);">Universitas Muslim Indonesia (2022-2026)</p>
                 <div class="milestone-footer">
                   <span style="color: var(--text-primary);">IPK 3,74</span>
-                  <span style="color: var(--accent-amber); background-color: var(--bg-surface-highest); padding: 2px 6px; border-radius: var(--radius-sm);">Dengan Pujian</span>
+                  <span style="color: var(--accent-amber); background-color: var(--bg-surface-highest); padding: 2px 6px; border-radius: var(--radius-sm);">Kota Makassar</span>
                 </div>
               </div>
 
@@ -273,13 +294,13 @@
               <div class="milestone-card">
                 <div class="milestone-tag">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
-                  <span>PENGALAMAN KERJA / MAGANG</span>
+                  <span>PENGALAMAN MAGANG</span>
                 </div>
                 <h3 class="font-headline-sm" style="color: var(--text-primary);">Divisi MIS</h3>
-                <p class="font-body-sm" style="color: var(--text-muted);">PT Bank Sulselbar (Kantor Pusat)</p>
+                <p class="font-body-sm" style="color: var(--text-muted);">PT Bank Sulselbar, Kota Makassar</p>
                 <div class="milestone-footer">
-                  <span style="color: var(--text-primary);">Management Information</span>
-                  <span style="color: var(--text-muted); font-family: var(--font-mono);">Makassar</span>
+                  <span style="color: var(--text-primary);">Praktik Lapangan</span>
+                  <span style="color: var(--text-muted); background-color: var(--bg-surface-highest); padding: 2px 6px; border-radius: var(--radius-sm);">[Periode Dalam Konfirmasi]</span>
                 </div>
               </div>
 
@@ -303,11 +324,11 @@
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
                   <span>ARAH PROFESIONAL</span>
                 </div>
-                <h3 class="font-headline-sm" style="color: var(--text-primary);">Software Engineering</h3>
-                <p class="font-body-sm" style="color: var(--text-muted);">Sistem Berkelanjutan &amp; Layanan Web</p>
+                <h3 class="font-headline-sm" style="color: var(--text-primary);">Junior Web Developer</h3>
+                <p class="font-body-sm" style="color: var(--text-muted);">Sistem Berkelanjutan &amp; Rekayasa Data</p>
                 <div class="milestone-footer">
-                  <span style="color: var(--text-primary);">Data Pipelines &amp; API</span>
-                  <span style="color: var(--accent-amber); font-family: var(--font-mono);">Siap Kontribusi</span>
+                  <span style="color: var(--text-primary);">Backend &amp; Arsitektur Web</span>
+                  <span style="color: var(--accent-teal); font-family: var(--font-mono);">Kota Makassar</span>
                 </div>
               </div>
 
@@ -559,11 +580,12 @@
                   </div>
                   <div class="visual-img-frame">
                     <img 
-                      src="/assets/projects/attendance-dashboard.png" 
+                      src="./assets/attendance-dashboard-BZmaDvQW.png" 
                       alt="Tangkapan layar nyata dashboard absensi Paradox Corporate Attendance dengan status verifikasi radius kantor Makassar"
                       class="visual-img"
                       loading="lazy"
-                      data-modal="true"
+                      data-gallery-project="project-01"
+                      data-gallery-index="0"
                     >
                   </div>
                 </div>
@@ -573,6 +595,115 @@
                 </div>
               </div>
 
+            </div>
+
+            <!-- PRD v0.9 Section 9 & 16: Complete UI Screens Grouped by Flow for Featured Case Study -->
+            <div class="case-study-gallery-block">
+              <div class="case-study-header">
+                <div>
+                  <h4>Galeri Lengkap 8 Antarmuka UI Paradox Corporate Attendance</h4>
+                  <p class="font-body-sm" style="color: var(--text-muted); margin-top: 2px;">
+                    Seluruh tangkapan layar asli sistem yang dikelompokkan berdasarkan alur operasional pengguna dan hierarki tata kelola.
+                  </p>
+                </div>
+                <button type="button" class="btn-open-gallery" data-gallery-project="project-01">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                  <span>Buka Viewer Penuh (8 Gambar)</span>
+                </button>
+              </div>
+
+              <div class="case-study-groups-stack">
+                <!-- Group A: Alur Presensi & Radar Geofencing -->
+                <div class="ui-flow-group">
+                  <div class="ui-flow-title">
+                    <span style="color: var(--accent-amber);">&bull;</span>
+                    <span>Alur 1: Presensi Pegawai &amp; Radius Geofencing (3 Layar)</span>
+                  </div>
+                  <div class="ui-thumbnails-grid">
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="0" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-dashboard-BZmaDvQW.png" alt="Dashboard Karyawan" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 01</span>
+                      </div>
+                      <div class="ui-thumb-caption">Dashboard Karyawan: Status presensi &amp; radius kantor</div>
+                    </div>
+
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="6" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-login-CpYzScqq.png" alt="Login Portal Karyawan" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 02</span>
+                      </div>
+                      <div class="ui-thumb-caption">Login Portal: Autentikasi sesi kredensial aman</div>
+                    </div>
+
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="7" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-activation-D0tBshvJ.png" alt="Pembuatan dan Aktivasi Akun" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 03</span>
+                      </div>
+                      <div class="ui-thumb-caption">Aktivasi Akun: Onboarding mandiri pegawai baru</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Group B: Manajemen Karyawan & Struktur Organisasi -->
+                <div class="ui-flow-group">
+                  <div class="ui-flow-title">
+                    <span style="color: var(--accent-teal);">&bull;</span>
+                    <span>Alur 2: Manajemen Karyawan &amp; Struktur Organisasi (2 Layar)</span>
+                  </div>
+                  <div class="ui-thumbnails-grid">
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="4" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-management-BrbeR0Cu.png" alt="Manajemen Karyawan" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 04</span>
+                      </div>
+                      <div class="ui-thumb-caption">Manajemen Karyawan: Data direktori &amp; status aktif</div>
+                    </div>
+
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="3" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-division-ChLlp-T-.png" alt="Struktur Divisi" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 05</span>
+                      </div>
+                      <div class="ui-thumb-caption">Struktur Divisi: Pemetaan unit kerja &amp; kuota tim</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Group C: Rekapitulasi & Persetujuan -->
+                <div class="ui-flow-group">
+                  <div class="ui-flow-title">
+                    <span style="color: var(--text-muted);">&bull;</span>
+                    <span>Alur 3: Dashboard Admin, Rekapitulasi &amp; Cuti (3 Layar)</span>
+                  </div>
+                  <div class="ui-thumbnails-grid">
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="1" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-admin-BOj_y05Q.png" alt="Dashboard Administrator" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 06</span>
+                      </div>
+                      <div class="ui-thumb-caption">Dashboard Admin: Agregasi presensi seluruh divisi</div>
+                    </div>
+
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="2" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-report-DAElWh89.png" alt="Laporan Karyawan" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 07</span>
+                      </div>
+                      <div class="ui-thumb-caption">Laporan Karyawan: Riwayat presensi &amp; audit log</div>
+                    </div>
+
+                    <div class="ui-thumb-card" data-gallery-project="project-01" data-gallery-index="5" title="Klik untuk memperbesar">
+                      <div class="ui-thumb-img-wrap">
+                        <img src="./assets/attendance-leave-BLIbCdrq.png" alt="Persetujuan Izin" class="ui-thumb-img" loading="lazy">
+                        <span class="ui-thumb-badge">LAYAR 08</span>
+                      </div>
+                      <div class="ui-thumb-caption">Persetujuan Izin: Workflow verifikasi cuti pegawai</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </article>
 
@@ -640,7 +771,7 @@
                   </div>
                   <div class="visual-img-frame">
                     <img 
-                      src="/assets/projects/anonymous-chat.png" 
+                      src="./assets/anonymous-chat-DvfldtJ8.png" 
                       alt="Tangkapan layar antarmuka Anonymous Chat dengan bubble pesan gelap, feed real-time, dan status room online"
                       class="visual-img"
                       loading="lazy"
@@ -725,7 +856,7 @@
                   </div>
                   <div class="visual-img-frame">
                     <img 
-                      src="/assets/projects/training-modules.png" 
+                      src="./assets/training-modules-CAhjbwrO.png" 
                       alt="Tangkapan layar antarmuka data pelatihan pegawai dengan daftar modul, tabel staf, dan status verifikasi"
                       class="visual-img"
                       loading="lazy"
@@ -778,7 +909,7 @@
           </div>
         </div>
 
-        <!-- 7 Projects Structured Grid -->
+        <!-- 7 Projects Structured Grid (PRD v0.5: All 7 with Large Visual Screenshot Proofs) -->
         <div class="catalog-7-grid">
 
           <!-- PROJECT 01 -->
@@ -786,14 +917,37 @@
             <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
               <div class="card-top-tag">
                 <span class="num">PROYEK 01</span>
-                <span class="status-chip teal">STABIL</span>
+                <span class="status-chip teal">TERUJI</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Sistem Absensi Karyawan Berbasis Geofencing
+                Sistem Absensi Karyawan (Paradox Corporate Attendance)
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Presensi pegawai jarak jauh dengan verifikasi koordinat Haversine berkala setiap 15 detik, mencegah manipulasi spoofing GPS.
+                Presensi pegawai jarak jauh dengan verifikasi koordinat Haversine berkala setiap 15 detik untuk mencegah manipulasi spoofing GPS.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-01" data-gallery-index="0" title="Klik untuk membuka galeri screenshot">
+              <img 
+                src="./assets/attendance-dashboard-BZmaDvQW.png" 
+                alt="Tangkapan layar nyata dashboard absensi Paradox Corporate Attendance dengan status verifikasi radius kantor Makassar"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Tangkapan layar antarmuka radar geofencing dan status validasi presensi.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-01" aria-label="Lihat seluruh screenshot Sistem Absensi">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Semua 8 Gambar</span>
+              </button>
+              <span class="gallery-count-badge">8 Tangkapan Layar</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -815,14 +969,37 @@
             <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
               <div class="card-top-tag">
                 <span class="num">PROYEK 02</span>
-                <span class="status-chip teal">STABIL</span>
+                <span class="status-chip teal">TERUJI</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Anonymous Real-Time Chat Platform
+                Anonymous Chat (Real-Time Communication Platform)
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Komunikasi anonim tanpa rekam identitas permanen. Sanitasi payload XSS ketat pada PHP Native yang disinkronisasi lewat Firebase RTDB.
+                Komunikasi anonim tanpa rekam identitas permanen. Sanitasi payload ketat pada backend yang disinkronkan langsung via Firebase RTDB.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-02" data-gallery-index="0" title="Klik untuk membuka screenshot">
+              <img 
+                src="./assets/anonymous-chat-DvfldtJ8.png" 
+                alt="Tangkapan layar antarmuka Anonymous Chat dengan bubble pesan gelap, feed real-time, dan status room online"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Antarmuka ruang percakapan dengan bubble pesan aman dan status koneksi live.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-02" aria-label="Lihat screenshot Anonymous Chat">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Bukti Gambar</span>
+              </button>
+              <span class="gallery-count-badge">1 Tangkapan Layar</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -832,7 +1009,7 @@
                 <span>JavaScript ES6</span>
               </div>
               <div class="card-footer-meta">
-                <span>Arsitektur: Event-driven Realtime</span>
+                <span>Arsitektur: Ephemeral Messaging</span>
                 <span style="color: var(--accent-teal); font-family: var(--font-mono);">2023</span>
               </div>
             </div>
@@ -843,21 +1020,44 @@
             <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
               <div class="card-top-tag">
                 <span class="num">PROYEK 03</span>
-                <span class="status-chip teal">STABIL</span>
+                <span class="status-chip teal">TERUJI</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Sistem Manajemen Pelatihan Pegawai
+                Sistem Pelatihan Karyawan (Staff Training Management)
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Manajemen sertifikasi dan kurikulum pelatihan SDM. Dilengkapi role multi-akses bertingkat dan perhitungan kelulusan otomatis.
+                Manajemen sertifikasi dan kurikulum pelatihan SDM. Dilengkapi proteksi role multi-akses bertingkat dan kalkulasi kelulusan otomatis.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-03" data-gallery-index="0" title="Klik untuk membuka galeri screenshot">
+              <img 
+                src="./assets/training-modules-CAhjbwrO.png" 
+                alt="Tangkapan layar antarmuka data pelatihan pegawai dengan daftar modul, tabel staf, dan status verifikasi"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Dasbor modul pembelajaran internal dan evaluasi hasil tes pegawai.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-03" aria-label="Lihat seluruh screenshot Sistem Pelatihan">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Semua 7 Gambar</span>
+              </button>
+              <span class="gallery-count-badge">7 Tangkapan Layar</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <div class="tech-tag-row">
-                <span>Laravel</span>
+                <span>PHP</span>
                 <span>MySQL Relasional</span>
-                <span>Tailwind CSS</span>
+                <span>Bootstrap</span>
               </div>
               <div class="card-footer-meta">
                 <span>Arsitektur: Role-Based ACL</span>
@@ -874,22 +1074,45 @@
                 <span class="status-chip amber">TUGAS AKHIR</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Sistem Monitoring IoT &amp; Web Dashboard
+                Proyek IoT / Tugas Akhir (IoT Smart Canopy)
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Integrasi node sensor berbasis mikrokontroler ESP32 mengirim data telemetri berkala lewat protokol REST HTTP ke antarmuka analitik web.
+                Integrasi mikrokontroler ESP8266 dengan sensor hujan dan cahaya untuk mengontrol kanopi otomatis serta mengirim telemetri ke web.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-04" data-gallery-index="0" title="Klik untuk membuka diagram skematik">
+              <img 
+                src="./assets/iot-canopy-diagram-BfsLJ4rD.png" 
+                alt="Diagram skematik arsitektur IoT Smart Canopy dengan sensor hujan, LDR, dan mikrokontroler"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Diagram alur perangkat keras dan antarmuka pencatatan data telemetri.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-04" aria-label="Lihat skematik IoT Smart Canopy">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Bukti Diagram</span>
+              </button>
+              <span class="gallery-count-badge">1 Skematik Asli</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <div class="tech-tag-row">
-                <span>ESP32 MCU</span>
-                <span>REST API Endpoint</span>
-                <span>PHP / C++</span>
-                <span>Chart.js</span>
+                <span>ESP8266 MCU</span>
+                <span>C++ / Arduino</span>
+                <span>Sensor Hujan/LDR</span>
+                <span>REST API</span>
               </div>
               <div class="card-footer-meta">
-                <span>Arsitektur: Hardware Telemetry Bus</span>
+                <span>Arsitektur: Hardware Telemetry</span>
                 <span style="color: var(--accent-amber); font-family: var(--font-mono);">2024</span>
               </div>
             </div>
@@ -899,26 +1122,50 @@
           <div class="project-card-item">
             <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
               <div class="card-top-tag">
-                <span class="num amber">PROYEK 05</span>
-                <span class="status-chip teal">AKTIF DIRANCANG</span>
+                <span class="num teal">PROYEK 05</span>
+                <span class="status-chip teal">B2B SAAS</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Audit Log &amp; Request Profiler Engine
+                LaporAman: B2B SaaS Anonymous Whistleblowing &amp; Feedback System
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Modul internal Laravel untuk mencatat trace mutasi data tabel secara mendalam dan mendeteksi query N+1 sebelum masuk ke repositori utama.
+                Platform pelaporan insiden etika perusahaan dengan arsitektur zero-knowledge. Pelapor menerima token unik tanpa perlu mendaftar akun.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-05" data-gallery-index="0" title="Klik untuk membuka galeri screenshot">
+              <img 
+                src="./assets/laporaman-home-DIwJdL4n.png" 
+                alt="Tangkapan layar beranda publik LaporAman B2B SaaS Whistleblowing System"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Halaman depan publik dengan jaminan perlindungan identitas pelapor.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-05" aria-label="Lihat seluruh screenshot LaporAman">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Semua 6 Gambar</span>
+              </button>
+              <span class="gallery-count-badge">6 Tangkapan Layar</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <div class="tech-tag-row">
-                <span>Laravel Middleware</span>
-                <span>Database Trigger</span>
-                <span>Event Listener</span>
+                <span>PHP / Laravel</span>
+                <span>MySQL Relasional</span>
+                <span>Token Hashing</span>
+                <span>Tailwind CSS</span>
               </div>
               <div class="card-footer-meta">
-                <span>Arsitektur: Query Profiling</span>
-                <span style="color: var(--text-muted); font-family: var(--font-mono);">Modul Rilis Berikutnya</span>
+                <span>Arsitektur: Zero-Knowledge Ingestion</span>
+                <span style="color: var(--accent-teal); font-family: var(--font-mono);">2024</span>
               </div>
             </div>
           </div>
@@ -927,155 +1174,284 @@
           <div class="project-card-item">
             <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
               <div class="card-top-tag">
-                <span class="num amber">PROYEK 06</span>
-                <span class="status-chip">EKSPLORASI ARSITEKTUR</span>
+                <span class="num teal">PROYEK 06</span>
+                <span class="status-chip teal">SIMULASI FINTECH</span>
               </div>
               <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                Data Pipeline &amp; Batch Ingestion Pipeline
+                Virtual Trading Simulator (TradeSim): Platform Simulasi Trading Saham BEI &amp; Kripto Real-Time
               </h3>
               <p class="font-body-sm" style="color: var(--text-muted); line-height: 20px;">
-                Penerapan prinsip Microsoft Azure Data Fundamentals untuk mengotomasi pembersihan rekaman CSV berukuran besar ke database ternormalisasi.
+                Aplikasi edukasi pasar modal dengan eksekusi order virtual, manajemen portofolio aset, dan visualisasi grafik pergerakan harga saham real-time.
               </p>
+            </div>
+
+            <div class="card-media-wrap" data-gallery-project="project-06" data-gallery-index="0" title="Klik untuk membuka galeri screenshot">
+              <img 
+                src="./assets/tradesim-dashboard-BPAE5UVj.png" 
+                alt="Tangkapan layar dasbor utama TradeSim simulasi portofolio saham BEI dan kripto"
+                class="card-media-img"
+                loading="lazy"
+              >
+              <div class="card-media-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                <span>BUKTI ASLI</span>
+              </div>
+            </div>
+            <div class="card-media-caption">
+              Dasbor portofolio ekuitas, grafik interaktif, dan posisi order virtual.
+            </div>
+            <div class="card-media-footer">
+              <button type="button" class="btn-open-gallery" data-gallery-project="project-06" aria-label="Lihat seluruh screenshot TradeSim">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                <span>Lihat Semua 4 Gambar</span>
+              </button>
+              <span class="gallery-count-badge">4 Tangkapan Layar</span>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <div class="tech-tag-row">
-                <span>Azure Storage</span>
-                <span>SQL Database</span>
-                <span>Batch Chunking</span>
+                <span>PHP / Laravel</span>
+                <span>MySQL</span>
+                <span>REST API</span>
+                <span>Chart.js</span>
               </div>
               <div class="card-footer-meta">
-                <span>Arsitektur: ETL Data Ingestion</span>
-                <span style="color: var(--text-muted); font-family: var(--font-mono);">Studi Kasus Cloud</span>
+                <span>Arsitektur: Order Book Engine</span>
+                <span style="color: var(--accent-teal); font-family: var(--font-mono);">2024</span>
               </div>
             </div>
           </div>
 
-          <!-- PROJECT 07 (Span Full Width) -->
+          <!-- PROJECT 07 -->
           <div class="project-card-item full-width">
             <div style="display: grid; grid-template-columns: 1fr; gap: var(--space-md);" class="project-07-inner">
               <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
                 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 11px;">
                   <span style="color: var(--accent-amber); font-weight: 700;">PROYEK 07</span>
-                  <span class="status-chip teal">EKSPERIMEN AKTIF WORKSHOP</span>
-                  <span style="color: var(--text-muted);">LABORATORIUM WEB</span>
+                  <span class="status-chip amber">DATA TOOLING</span>
+                  <span style="color: var(--text-muted);">OTOMASI PRODUKTIVITAS</span>
                 </div>
                 <h3 class="font-headline-sm" style="color: var(--text-primary); padding-top: 4px;">
-                  Quiet Workshop Design System &amp; Accessible Component Kit
+                  Excel AI Automation Studio
                 </h3>
                 <p class="font-body-sm" style="color: var(--text-muted); line-height: 22px; max-width: 820px;">
-                  Eksperimen antarmuka personal dengan rasio kontras tinggi yang bersahabat untuk mata pemrogram saat malam hari. Menggunakan Vanilla CSS murni tanpa ketergantungan framework CSS pihak ketiga yang berat, berfokus pada ritme tipografi dan ketahanan DOM.
+                  Studio otomasi spreadsheet untuk membersihkan data, menyusun rumus kompleks, dan menghasilkan laporan tabel secara terstruktur melalui bantuan integrasi model analitik cerdas. Mengurangi beban kerja repetitif pada pemrosesan dokumen tabular.
                 </p>
+              </div>
+
+              <div class="card-media-wrap" data-gallery-project="project-07" data-gallery-index="0" title="Klik untuk membuka galeri screenshot">
+                <img 
+                  src="./assets/excel-ai-CZr9tLTf.png" 
+                  alt="Tangkapan layar antarmuka Excel AI Automation Studio dengan panel analisis formula"
+                  class="card-media-img"
+                  loading="lazy"
+                >
+                <div class="card-media-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                  <span>BUKTI ASLI</span>
+                </div>
+              </div>
+              <div class="card-media-caption">
+                Panel kerja manipulasi dokumen tabular dan integrasi asisten logika data cerdas.
+              </div>
+              <div class="card-media-footer">
+                <button type="button" class="btn-open-gallery" data-gallery-project="project-07" aria-label="Lihat seluruh screenshot Excel AI">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-11-4l2.03 2.71L16 11l4 5H8l3-4zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/></svg>
+                  <span>Lihat Semua 3 Gambar</span>
+                </button>
+                <span class="gallery-count-badge">3 Tangkapan Layar</span>
               </div>
 
               <div style="display: flex; flex-direction: column; gap: 8px;">
                 <div class="tech-tag-row">
-                  <span>Vanilla CSS Tokens</span>
-                  <span>Semantic HTML5</span>
-                  <span>Typography Hierarchy</span>
-                  <span>WCAG 2.1 Contrast</span>
+                  <span>JavaScript</span>
+                  <span>Node.js</span>
+                  <span>SheetJS Engine</span>
+                  <span>REST API AI</span>
                 </div>
                 <div class="card-footer-meta">
-                  <span>Status: Iterasi Mandiri</span>
-                  <span style="color: var(--accent-teal); font-family: var(--font-mono);">Live di Portofolio Ini</span>
+                  <span>Arsitektur: Tabular Stream Processor</span>
+                  <span style="color: var(--accent-amber); font-family: var(--font-mono);">2024</span>
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <!-- ======================================================================
+             SECTION 04.B: CONTOH HALAMAN DETAIL PROYEK & GALERI BUKTI MULTI-LAYAR
+             (Memenuhi Kebutuhan PRD v0.5 Butir 8)
+             ====================================================================== -->
+        <div style="margin-top: var(--space-2xl); padding-top: var(--space-xl); border-top: 1px solid var(--border-subtle);" id="detail-proyek-spesimen">
+          
+          <div class="section-header-block" style="margin-bottom: var(--space-lg);">
+            <div class="section-counter">
+              <span class="num">[ SPESIMEN ]</span>
+              <span class="label">Dokumentasi Detail Proyek</span>
+            </div>
+            <h3 class="font-headline-lg" style="color: var(--text-primary);">
+              Studi Kasus Detail: LaporAman (B2B SaaS Whistleblowing)
+            </h3>
+            <p class="font-body-md" style="color: var(--text-muted); max-width: 720px; padding-top: 4px;">
+              Contoh rancangan halaman detail satu proyek lengkap dengan ringkasan kontribusi rekayasa dan galeri tangkapan layar asli multi-antarmuka.
+            </p>
+          </div>
+
+          <!-- Contribution & Architecture Card -->
+          <div style="background-color: var(--bg-surface-container); border: 1px solid var(--border-subtle); border-radius: var(--radius-default); padding: var(--space-lg); margin-bottom: var(--space-lg);">
+            <h4 class="font-headline-sm" style="color: var(--text-primary); margin-bottom: var(--space-sm);">
+              Ringkasan Masalah &amp; Kontribusi Rekayasa
+            </h4>
+            <div style="display: grid; grid-template-columns: 1fr; gap: var(--space-md);" class="specimen-summary-grid">
+              <p class="font-body-sm" style="color: var(--text-secondary); line-height: 24px;">
+                <strong>Tantangan Utama:</strong> Banyak karyawan enggan melaporkan pelanggaran etika karena khawatir identitas mereka terlacak oleh administrator. LaporAman dirancang untuk memutus mata rantai pengumpulan metadata pribadi (Zero-Knowledge Ingestion).
+              </p>
+              <p class="font-body-sm" style="color: var(--text-secondary); line-height: 24px;">
+                <strong>Peran &amp; Solusi Teknis:</strong> Merancang alur autentikasi tanpa akun dengan sistem token alfanumerik acak dan PIN 6-digit. Membangun skema hashing satu arah untuk verifikasi tindak lanjut serta merancang panel dasbor administrasi bagi verifikator internal organisasi.
+              </p>
+            </div>
+          </div>
+
+          <!-- Multi-Screenshot Evidence Gallery -->
+          <div class="specimen-gallery-grid">
+            
+            <div class="specimen-gallery-card">
+              <div class="specimen-gallery-media" data-modal="true" data-img="./assets/projects/laporaman-home.png" data-caption="LaporAman: Halaman Beranda Publik dengan Komunikasi Jaminan Privasi">
+                <img src="./assets/laporaman-home-DIwJdL4n.png" alt="Tangkapan layar beranda publik LaporAman" loading="lazy">
+              </div>
+              <div class="specimen-gallery-body">
+                <span class="font-label-sm" style="color: var(--accent-teal); font-family: var(--font-mono);">LAYAR 01 : BERANDA PUBLIK</span>
+                <p class="font-body-sm" style="color: var(--text-muted); line-height: 18px;">
+                  Pintu masuk pelaporan dengan instruksi hak pelapor dan jaminan kerahasiaan tanpa pelacak.
+                </p>
+              </div>
+            </div>
+
+            <div class="specimen-gallery-card">
+              <div class="specimen-gallery-media" data-modal="true" data-img="./assets/projects/laporaman-form.png" data-caption="LaporAman: Formulir Pengaduan Terenkripsi Tanpa Registrasi Akun">
+                <img src="./assets/laporaman-form-Dn4ZiALn.png" alt="Tangkapan layar formulir pengaduan LaporAman" loading="lazy">
+              </div>
+              <div class="specimen-gallery-body">
+                <span class="font-label-sm" style="color: var(--accent-teal); font-family: var(--font-mono);">LAYAR 02 : FORM PENGADUAN</span>
+                <p class="font-body-sm" style="color: var(--text-muted); line-height: 18px;">
+                  Input formulir terproteksi untuk menyampaikan rincian bukti insiden tanpa merekam identitas IP.
+                </p>
+              </div>
+            </div>
+
+            <div class="specimen-gallery-card">
+              <div class="specimen-gallery-media" data-modal="true" data-img="./assets/projects/laporaman-token.png" data-caption="LaporAman: Pembuatan Token Unik dan PIN Rahasia Pelapor">
+                <img src="./assets/laporaman-token-BQUFdAkO.png" alt="Tangkapan layar token pengaduan LaporAman" loading="lazy">
+              </div>
+              <div class="specimen-gallery-body">
+                <span class="font-label-sm" style="color: var(--accent-amber); font-family: var(--font-mono);">LAYAR 03 : KREDENSIAL TOKEN</span>
+                <p class="font-body-sm" style="color: var(--text-muted); line-height: 18px;">
+                  Sistem menghasilkan kunci token acak untuk dipakai pelapor saat meninjau tindak lanjut.
+                </p>
+              </div>
+            </div>
+
+            <div class="specimen-gallery-card">
+              <div class="specimen-gallery-media" data-modal="true" data-img="./assets/projects/laporaman-tracking.png" data-caption="LaporAman: Panel Pelacakan Status Penanganan Kasus">
+                <img src="./assets/laporaman-tracking-BTqn_6Tw.png" alt="Tangkapan layar pelacakan tiket pengaduan LaporAman" loading="lazy">
+              </div>
+              <div class="specimen-gallery-body">
+                <span class="font-label-sm" style="color: var(--accent-teal); font-family: var(--font-mono);">LAYAR 04 : LACAK PENGADUAN</span>
+                <p class="font-body-sm" style="color: var(--text-muted); line-height: 18px;">
+                  Ruang komunikasi dua arah antara pelapor dan investigator secara anonim melalui token.
+                </p>
+              </div>
+            </div>
+
+            <div class="specimen-gallery-card">
+              <div class="specimen-gallery-media" data-modal="true" data-img="./assets/projects/laporaman-admin.png" data-caption="LaporAman: Dasbor Administrasi Pengelola &amp; Verifikator Kasus">
+                <img src="./assets/laporaman-admin-CXgcs_hA.png" alt="Tangkapan layar dasbor admin LaporAman" loading="lazy">
+              </div>
+              <div class="specimen-gallery-body">
+                <span class="font-label-sm" style="color: var(--accent-teal); font-family: var(--font-mono);">LAYAR 05 : DASBOR PENGELOLA</span>
+                <p class="font-body-sm" style="color: var(--text-muted); line-height: 18px;">
+                  Panel kerja verifikator organisasi untuk menelaah laporan, mengelompokkan urgensi, dan merespons.
+                </p>
+              </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
     </section>
 
     <!-- ======================================================================
-         SECTION 05: KRONOLOGI PENDIDIKAN & PRAKTIK PROFESIONAL
+         SECTION 05: PENDIDIKAN & SERTIFIKASI (EDUCATION & CERTIFICATION)
+         (Memenuhi Kebutuhan PRD v0.5 Section 10.D)
          ====================================================================== -->
-    <section class="section-wrapper" id="pengalaman">
+    <section class="section-wrapper" id="pendidikan">
       <div class="site-container">
 
         <div class="section-header-block">
           <div class="section-counter">
             <span class="num">[ 05 ]</span>
-            <span class="label">Rekam Jejak &amp; Pengalaman</span>
+            <span class="label">Pendidikan &amp; Kualifikasi</span>
           </div>
           <h2 class="font-headline-lg" style="color: var(--text-primary);">
-            Kronologi Pendidikan &amp; Praktik Profesional
+            Education &amp; Certification
           </h2>
+          <p class="font-body-md" style="color: var(--text-muted); max-width: 640px; padding-top: 4px;">
+            Latar belakang akademis formal di bidang ilmu komputer dan pengakuan kompetensi cloud data global.
+          </p>
         </div>
 
         <div class="timeline-stack">
 
-          <!-- Timeline Item 1: Bank Sulselbar -->
-          <div class="timeline-item-card">
-            <div class="timeline-grid">
-              <div class="timeline-left">
-                <span class="timeline-cat-label">MAGANG INDUSTRI</span>
-                <span class="timeline-inst-name">Divisi MIS</span>
-                <span>PT Bank Sulselbar</span>
-                <span style="margin-top: 6px; font-family: var(--font-mono);">Makassar, Indonesia</span>
-              </div>
-              <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
-                <h3 class="font-headline-sm" style="color: var(--text-primary);">
-                  Praktik Kerja Lapangan: Management Information System
-                </h3>
-                <p class="font-body-md" style="color: var(--text-secondary); line-height: 26px;">
-                  Terlibat dalam lingkungan operasional sistem perbankan daerah. Mengamati dan mempelajari standardisasi tata kelola informasi, validitas data transaksi internal, serta pentingnya integritas skema database pada skala institusi finansial yang menuntut keandalan tingkat tinggi tanpa toleransi kesalahan data.
-                </p>
-                <div class="timeline-tags">
-                  <span>Data Governance</span>
-                  <span>Enterprise Information Flow</span>
-                  <span>Database Integrity Check</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Timeline Item 2: UMI -->
+          <!-- Education Card: UMI -->
           <div class="timeline-item-card">
             <div class="timeline-grid">
               <div class="timeline-left">
                 <span class="timeline-cat-label amber">STRATA SATU (S1)</span>
                 <span class="timeline-inst-name">Teknik Informatika</span>
                 <span>Universitas Muslim Indonesia</span>
-                <span style="margin-top: 6px; font-family: var(--font-mono); color: var(--accent-amber);">IPK 3,74 (Pujian)</span>
+                <span style="margin-top: 6px; font-family: var(--font-mono); color: var(--accent-amber);">Periode Studi: 2022-2026</span>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 2px;">IPK 3,74 &bull; Kota Makassar</span>
               </div>
               <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
                 <h3 class="font-headline-sm" style="color: var(--text-primary);">
-                  Lulus Sarjana Komputer dengan Fokus Rekayasa Perangkat Lunak
+                  Sarjana Komputer, Program Studi Teknik Informatika
                 </h3>
                 <p class="font-body-md" style="color: var(--text-secondary); line-height: 26px;">
-                  Menyelesaikan studi dengan kurikulum komprehensif mencakup algoritma pemrograman, struktur data, perancangan sistem berorientasi objek, keamanan sistem informasi, dan teknologi jaringan. Menuntaskan penelitian tugas akhir berbasis telemetri IoT dan dasbor web pemantauan.
+                  Menempuh studi teknik informatika di Universitas Muslim Indonesia (periode studi 2022-2026) di Kota Makassar dengan capaian indeks prestasi kumulatif (IPK) 3,74. Mempelajari konsep mendasar komputasi mencakup struktur data, algoritma efisien, rekayasa perangkat lunak, perancangan skema relasional, dan penelitian tugas akhir berbasis pemantauan telemetri IoT terhubung ke antarmuka web.
                 </p>
                 <div class="timeline-tags">
                   <span>Rekayasa Perangkat Lunak</span>
                   <span>Struktur Data &amp; Algoritma</span>
                   <span>Basis Data Relasional</span>
+                  <span>Telemetri IoT</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Timeline Item 3: Microsoft Certified -->
+          <!-- Certification Card: Microsoft Certified -->
           <div class="timeline-item-card">
             <div class="timeline-grid">
               <div class="timeline-left">
                 <span class="timeline-cat-label">SERTIFIKASI GLOBAL</span>
                 <span class="timeline-inst-name">Microsoft Certified</span>
                 <span>Azure Fundamentals</span>
-                <span style="margin-top: 6px; font-family: var(--font-mono);">Ujian DP-900</span>
+                <span style="margin-top: 6px; font-family: var(--font-mono); color: var(--accent-teal);">Ujian DP-900</span>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 2px;">Cloud Data Concepts</span>
               </div>
               <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
                 <h3 class="font-headline-sm" style="color: var(--text-primary);">
                   Microsoft Certified: Azure Data Fundamentals
                 </h3>
                 <p class="font-body-md" style="color: var(--text-secondary); line-height: 26px;">
-                  Memvalidasi kompetensi fundamental seputar pemrosesan data relasional dan non-relasional di cloud Azure, konsep pergudangan data modern, analitik beban kerja (workload processing), serta praktik keamanan penyimpanan data terdistribusi.
+                  Sertifikasi resmi yang memvalidasi pemahaman fundamental seputar konsep data relasional dan non-relasional di ekosistem Microsoft Azure, pergudangan data modern, analisis beban kerja data, serta prinsip keamanan penyimpanan terdistribusi.
                 </p>
                 <div class="timeline-tags">
                   <span>Azure SQL</span>
-                  <span>Cosmos DB Concepts</span>
-                  <span>Data Warehousing</span>
+                  <span>Relational &amp; Non-Relational Data</span>
+                  <span>Data Ingestion &amp; Analytics</span>
                 </div>
               </div>
             </div>
@@ -1087,7 +1463,456 @@
     </section>
 
     <!-- ======================================================================
-         SECTION 06: INSPEKSI WORKSHOP (CODE SPECIMEN WINDOW)
+         SECTION 06: PENGALAMAN MAGANG (INTERNSHIP)
+         (Memenuhi Kebutuhan PRD v0.5 Section 10.E: Heading "Pengalaman Magang")
+         ====================================================================== -->
+    <section class="section-wrapper bg-alt" id="magang">
+      <div class="site-container">
+
+        <div class="section-header-block">
+          <div class="section-counter">
+            <span class="num">[ 06 ]</span>
+            <span class="label">Praktik Lapangan</span>
+          </div>
+          <h2 class="font-headline-lg" style="color: var(--text-primary);">
+            Pengalaman Magang
+          </h2>
+          <p class="font-body-md" style="color: var(--text-muted); max-width: 680px; padding-top: 4px;">
+            Satu-satunya riwayat magang yang tercatat, dijalankan di institusi perbankan daerah di Kota Makassar tanpa pengalaman kerja profesional lain yang dibuat-buat.
+          </p>
+        </div>
+
+        <div class="timeline-stack">
+
+          <!-- Internship Item: Bank Sulselbar -->
+          <div class="timeline-item-card">
+            <div class="timeline-grid">
+              <div class="timeline-left">
+                <span class="timeline-cat-label">PENGALAMAN MAGANG</span>
+                <span class="timeline-inst-name">Divisi MIS</span>
+                <span>PT Bank Sulselbar</span>
+                <span style="margin-top: 6px; font-family: var(--font-mono); color: var(--accent-teal);">Kota Makassar, Indonesia</span>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 2px;">[Periode magang dalam konfirmasi]</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
+                <h3 class="font-headline-sm" style="color: var(--text-primary);">
+                  Praktik Kerja Lapangan: Management Information System (MIS)
+                </h3>
+                <p class="font-body-md" style="color: var(--text-secondary); line-height: 26px;">
+                  Menjalani praktik kerja magang pada Divisi Management Information System (MIS) PT Bank Sulselbar di Kota Makassar. Mengamati tata kelola alur informasi perbankan, validitas data transaksi internal, serta pentingnya integritas skema database pada skala institusi finansial yang menuntut keandalan tinggi.
+                </p>
+                <div style="padding: 10px 14px; background-color: var(--bg-surface-lowest); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin: 4px 0;">
+                  [Detail tanggung jawab spesifik, sistem yang dibantu, dan periode magang ditampilkan sebagai placeholder sampai pemilik memberikan rincian valid]
+                </div>
+                <div class="timeline-tags">
+                  <span>Tata Kelola Informasi</span>
+                  <span>Sistem Perbankan Daerah</span>
+                  <span>Integritas Basis Data</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 07: SERTIFIKAT RESMI (CERTIFICATES)
+         (Memenuhi Kebutuhan PRD v0.9 Section 10.J: Tepat 7 Dokumen dalam 4 Kategori)
+         ====================================================================== -->
+    <section class="section-wrapper" id="sertifikat">
+      <div class="site-container">
+
+        <div class="section-header-block">
+          <div class="section-counter">
+            <span class="num">[ 07 ]</span>
+            <span class="label">Sertifikasi &amp; Kualifikasi Resmi</span>
+          </div>
+          <h2 class="font-headline-lg" style="color: var(--text-primary);">
+            Certificates &amp; Official Credentials
+          </h2>
+          <p class="font-body-md" style="color: var(--text-muted); max-width: 680px; padding-top: 4px;">
+            Dokumentasi kualifikasi formal yang mencakup tepat tujuh dokumen PDF asli dalam empat kategori terstruktur. Seluruh dokumen dapat dibaca langsung melalui penampil PDF terintegrasi, dibuka di tab baru, atau diunduh sebagai arsip bukti otentik.
+          </p>
+        </div>
+
+        <div class="certificates-container">
+
+          <!-- KATEGORI 1: SERTIFIKASI PROFESIONAL (1 ITEM) -->
+          <div class="certificate-category-wrapper">
+            <div class="category-header-strip">
+              <div class="cat-title-wrap">
+                <span class="category-tag-pill">KATEGORI 01</span>
+                <h3>Sertifikasi Profesional Global</h3>
+              </div>
+              <span class="category-count">1 Dokumen Resmi</span>
+            </div>
+
+            <div class="certificates-cards-grid">
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="microsoft-azure" title="Klik untuk membuka sertifikat">
+                  <img src="./assets/sertifikat-microsoft-azure-p1-CsrSR7Bs.png" alt="Pratinjau Sertifikat Microsoft Azure Data Fundamentals" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>TERVERIFIKASI RESMI</span>
+                    </span>
+                    <span>Ujian DP-900</span>
+                  </div>
+                  <h4 class="cert-title">Microsoft Certified: Azure Data Fundamentals</h4>
+                  <div class="cert-issuer">Penerbit: Microsoft Corporation</div>
+                  <p class="cert-desc">
+                    Pengakuan standar global atas pemahaman menyeluruh terhadap konsep arsitektur data cloud, beban kerja relasional dan non-relasional di Microsoft Azure, modern data warehousing, serta keamanan data terdistribusi.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>Azure Cloud Data</span>
+                    <span>Relational Database</span>
+                    <span>DP-900 Credential</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="microsoft-azure">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-microsoft-azure.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-microsoft-azure.pdf" download="sertifikat-microsoft-azure.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- KATEGORI 2: SERTIFIKAT PELATIHAN (4 ITEM) -->
+          <div class="certificate-category-wrapper">
+            <div class="category-header-strip">
+              <div class="cat-title-wrap">
+                <span class="category-tag-pill amber">KATEGORI 02</span>
+                <h3>Sertifikat Pelatihan Keahlian Teknis</h3>
+              </div>
+              <span class="category-count">4 Dokumen Resmi</span>
+            </div>
+
+            <div class="certificates-cards-grid">
+              
+              <!-- Pelatihan 01: Fullstack Web Development -->
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="pelatihan-fullstack" title="Klik untuk membuka sertifikat">
+                  <img src="./assets/sertifikat-pelatihan-fullstack-p1-OoPiBeOw.png" alt="Pratinjau Sertifikat Pelatihan Fullstack Web Development" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>SERTIFIKAT LULUS</span>
+                    </span>
+                    <span>Pelatihan Teknis</span>
+                  </div>
+                  <h4 class="cert-title">Fullstack Web Development Program</h4>
+                  <div class="cert-issuer">Penyelenggara: [Lembaga Pelatihan Terverifikasi]</div>
+                  <p class="cert-desc">
+                    Program pelatihan intensif rekayasa web mencakup arsitektur frontend modern, perancangan skema database relasional, implementasi REST API, dan integrasi backend secara terstruktur.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>Fullstack Architecture</span>
+                    <span>REST API</span>
+                    <span>Database Schema</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="pelatihan-fullstack">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-pelatihan-fullstack.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-pelatihan-fullstack.pdf" download="sertifikat-pelatihan-fullstack.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pelatihan 02: Web Programming -->
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="pelatihan-web" title="Klik untuk membuka sertifikat (2 Halaman)">
+                  <img src="./assets/sertifikat-pelatihan-web-programming-p1-ZQFXDyMF.png" alt="Pratinjau Sertifikat Pelatihan Web Programming" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat (2 Halaman)</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>SERTIFIKAT LULUS</span>
+                    </span>
+                    <span>Pelatihan Teknis</span>
+                  </div>
+                  <h4 class="cert-title">Web Programming</h4>
+                  <div class="cert-issuer">Penyelenggara: [Lembaga Pelatihan Terverifikasi]</div>
+                  <p class="cert-desc">
+                    Penguasaan pola pemrograman web dinamis, penanganan manipulasi DOM, pemrosesan formulir terenkripsi, dan integrasi logika sisi server yang aman.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>Web Architecture</span>
+                    <span>DOM Manipulation</span>
+                    <span>Server-Side Logic</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="pelatihan-web">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-pelatihan-web-programming.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-pelatihan-web-programming.pdf" download="sertifikat-pelatihan-web-programming.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pelatihan 03: Mobile Programming -->
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="pelatihan-mobile" title="Klik untuk membuka sertifikat (2 Halaman)">
+                  <img src="./assets/sertifikat-pelatihan-mobile-programming-p1-BqOMWYxk.png" alt="Pratinjau Sertifikat Pelatihan Mobile Programming" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat (2 Halaman)</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>SERTIFIKAT LULUS</span>
+                    </span>
+                    <span>Pelatihan Teknis</span>
+                  </div>
+                  <h4 class="cert-title">Mobile Programming</h4>
+                  <div class="cert-issuer">Penyelenggara: [Lembaga Pelatihan Terverifikasi]</div>
+                  <p class="cert-desc">
+                    Pengembangan aplikasi berbasis mobile, pemahaman siklus hidup aplikasi (lifecycle), state management reaktif, serta komunikasi asinkron dengan antarmuka endpoint web.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>Mobile Architecture</span>
+                    <span>State Management</span>
+                    <span>Async Networking</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="pelatihan-mobile">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-pelatihan-mobile-programming.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-pelatihan-mobile-programming.pdf" download="sertifikat-pelatihan-mobile-programming.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pelatihan 04: Administrasi Perkantoran -->
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="pelatihan-admin" title="Klik untuk membuka sertifikat (2 Halaman)">
+                  <img src="./assets/sertifikat-pelatihan-administrasi-perkantoran-p1-C6H2p2fd.png" alt="Pratinjau Sertifikat Pelatihan Administrasi Perkantoran" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat (2 Halaman)</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>SERTIFIKAT LULUS</span>
+                    </span>
+                    <span>Pelatihan Teknis</span>
+                  </div>
+                  <h4 class="cert-title">Administrasi Perkantoran</h4>
+                  <div class="cert-issuer">Penyelenggara: [Lembaga Pelatihan Terverifikasi]</div>
+                  <p class="cert-desc">
+                    Kompetensi tata kelola pengarsipan dokumen digital, otomatisasi dokumen terstruktur, serta standarisasi alur administrasi informasi berbasis komputerisasi.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>Digital Archiving</span>
+                    <span>Office Systems</span>
+                    <span>Document Processing</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="pelatihan-admin">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-pelatihan-administrasi-perkantoran.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-pelatihan-administrasi-perkantoran.pdf" download="sertifikat-pelatihan-administrasi-perkantoran.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- KATEGORI 3: SERTIFIKAT MAGANG (1 ITEM) -->
+          <div class="certificate-category-wrapper">
+            <div class="category-header-strip">
+              <div class="cat-title-wrap">
+                <span class="category-tag-pill">KATEGORI 03</span>
+                <h3>Sertifikat Pengalaman Magang</h3>
+              </div>
+              <span class="category-count">1 Dokumen Resmi</span>
+            </div>
+
+            <div class="certificates-cards-grid">
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="magang-bank-sulselbar" title="Klik untuk membuka sertifikat (2 Halaman)">
+                  <img src="./assets/sertifikat-magang-bank-sulselbar-p1-CSnJ8wMG.png" alt="Pratinjau Sertifikat Magang Bank Sulselbar Divisi MIS" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat (2 Halaman)</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>MAGANG RESMI</span>
+                    </span>
+                    <span>Kota Makassar, Indonesia</span>
+                  </div>
+                  <h4 class="cert-title">Sertifikat Magang Divisi Management Information System (MIS)</h4>
+                  <div class="cert-issuer">Penyelenggara: PT Bank Sulselbar</div>
+                  <p class="cert-desc">
+                    Surat keterangan dan sertifikat resmi atas penyelesaian kegiatan Praktik Kerja Lapangan pada Divisi Management Information System (MIS) PT Bank Sulselbar di Kota Makassar.
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>MIS Perbankan</span>
+                    <span>PT Bank Sulselbar</span>
+                    <span>Praktik Kerja Lapangan</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="magang-bank-sulselbar">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-magang-bank-sulselbar.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-magang-bank-sulselbar.pdf" download="sertifikat-magang-bank-sulselbar.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- KATEGORI 4: TOEFL PREDICTION TEST (1 ITEM) -->
+          <div class="certificate-category-wrapper">
+            <div class="category-header-strip">
+              <div class="cat-title-wrap">
+                <span class="category-tag-pill amber">KATEGORI 04</span>
+                <h3>Sertifikat Kemampuan Bahasa</h3>
+              </div>
+              <span class="category-count">1 Dokumen Resmi</span>
+            </div>
+
+            <div class="certificates-cards-grid">
+              <div class="certificate-card">
+                <div class="cert-preview-cover" data-cert-key="toefl-prediction" title="Klik untuk membuka sertifikat">
+                  <img src="./assets/sertifikat-toefl-prediction-p1-Dz58wgCu.png" alt="Pratinjau Sertifikat Hasil TOEFL Prediction Test" class="cert-cover-img" loading="lazy">
+                  <div class="cert-cover-overlay">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </div>
+                </div>
+                <div class="cert-card-top">
+                  <div class="cert-meta-row">
+                    <span class="cert-status-badge">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                      <span>HASIL UJI RESMI</span>
+                    </span>
+                    <span>English Proficiency</span>
+                  </div>
+                  <h4 class="cert-title">Sertifikat Hasil TOEFL Prediction Test</h4>
+                  <div class="cert-issuer">Penyelenggara: [Lembaga Uji Bahasa Terverifikasi]</div>
+                  <p class="cert-desc">
+                    Laporan hasil evaluasi kemampuan Bahasa Inggris mencakup pemahaman mendengarkan (Listening Comprehension), tata bahasa terstruktur (Structure &amp; Written Expression), dan pemahaman teks (Reading Comprehension).
+                  </p>
+                  <div class="cert-tags-row">
+                    <span>TOEFL Prediction</span>
+                    <span>Listening &amp; Structure</span>
+                    <span>Reading Comprehension</span>
+                  </div>
+                </div>
+
+                <div class="cert-actions-row">
+                  <button type="button" class="btn-cert-primary" data-cert-key="toefl-prediction">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                    <span>Buka Sertifikat</span>
+                  </button>
+                  <div class="cert-sub-actions">
+                    <a href="./assets/certificates/sertifikat-toefl-prediction.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-icon" title="Buka PDF di tab baru">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                    </a>
+                    <a href="./assets/certificates/sertifikat-toefl-prediction.pdf" download="sertifikat-toefl-prediction.pdf" class="btn-cert-icon" title="Unduh file PDF">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 08: INSPEKSI WORKSHOP (CODE SPECIMEN WINDOW)
          ====================================================================== -->
     <section class="section-wrapper bg-alt" id="inspeksi">
       <div class="site-container">
@@ -1097,7 +1922,7 @@
           <!-- Left Info -->
           <div style="display: flex; flex-direction: column; gap: var(--space-md);">
             <div class="section-counter">
-              <span class="num">[ 06 ]</span>
+              <span class="num">[ 08 ]</span>
               <span class="label">Inspeksi Workshop</span>
             </div>
             <h2 class="font-headline-lg" style="color: var(--text-primary);">
@@ -1157,7 +1982,8 @@
     </section>
 
     <!-- ======================================================================
-         SECTION 07: CONTACT & COLLABORATIVE GATEWAY
+         SECTION 09: CONTACT (HUBUNGI WORKSHOP)
+         (Memenuhi Kebutuhan PRD v0.9 Section 10.K)
          ====================================================================== -->
     <section class="section-wrapper" id="kontak">
       <div class="site-container">
@@ -1168,14 +1994,14 @@
             <!-- Left: Direct Reach -->
             <div style="display: flex; flex-direction: column; gap: var(--space-md);">
               <div class="section-counter">
-                <span class="num">[ 07 ]</span>
+                <span class="num">[ 09 ]</span>
                 <span class="label">Hubungi Workshop</span>
               </div>
               <h2 class="font-headline-lg" style="color: var(--text-primary);">
-                Mulai Diskusi Rekayasa atau Penugasan Proyek
+                Mulai Diskusi Rekayasa &amp; Pertanyaan Teknis
               </h2>
               <p class="font-body-md" style="color: var(--text-secondary); line-height: 26px;">
-                Saya terbuka untuk kesempatan kerja penuh waktu (Software Engineer / Backend Developer), kontrak pengembangan modul web, atau kolaborasi perancangan sistem berbasis data. Kirimkan pesan singkat mengenai kebutuhan teknis Anda.
+                Silakan hubungi saya melalui surel untuk berdiskusi seputar rekayasa web, arsitektur basis data, atau pertanyaan teknis mengenai studi kasus proyek yang tercantum di portofolio ini.
               </p>
 
               <!-- Info Rows -->
@@ -1186,11 +2012,11 @@
                 </div>
                 <div class="contact-info-row">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: var(--accent-amber);" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                  <span>Makassar, Sulawesi Selatan, Indonesia (WITA / UTC+8)</span>
+                  <span>Kota Makassar, Indonesia (WITA / UTC+8)</span>
                 </div>
                 <div class="contact-info-row">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: var(--accent-teal-container);" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                  <span style="color: var(--accent-teal);">Tersedia untuk proyek baru dan relokasi kerja remote / on-site</span>
+                  <span style="color: var(--accent-teal);">Komunikasi terbuka melalui email untuk diskusi teknis dan jaringan profesional</span>
                 </div>
               </div>
 
@@ -1278,16 +2104,83 @@
   </footer>
 
   <!-- ========================================================================
-       LIGHTBOX MODAL UNTUK AUDIT SCREENSHOT APLIKASI ASLI
+       MULTI-SCREENSHOT LIGHTBOX MODAL
+       (PRD v0.9: Next, Prev, Counter, Thumbnails, Keyboard Navigation)
        ======================================================================== -->
   <div class="modal-overlay" id="image-modal" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="modal-content">
       <div class="modal-header">
-        <span id="modal-caption" style="font-weight: 500; color: var(--text-primary);">Inspeksi Tangkapan Layar Aplikasi</span>
+        <div class="modal-header-left">
+          <span class="gallery-counter-badge" id="modal-counter">Gambar 1 dari 1</span>
+          <span id="modal-caption" class="gallery-modal-caption">Inspeksi Tangkapan Layar Aplikasi</span>
+        </div>
         <button type="button" class="modal-close-btn" id="modal-close" aria-label="Tutup inspeksi gambar">&times; TUTUP</button>
       </div>
-      <div class="modal-body">
-        <img src="" alt="" id="modal-image" class="modal-img">
+      <div class="modal-body gallery-modal-body">
+        <button type="button" class="gallery-nav-btn prev" id="modal-prev" aria-label="Gambar Sebelumnya">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <div class="gallery-img-container">
+          <img src="" alt="" id="modal-image" class="modal-img">
+        </div>
+        <button type="button" class="gallery-nav-btn next" id="modal-next" aria-label="Gambar Berikutnya">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+      </div>
+      <!-- Thumbnail Strip Bar -->
+      <div class="gallery-thumbnails-strip" id="modal-thumbnails">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL PENAMPIL DOKUMEN SERTIFIKAT INTERAKTIF (TANPA AUTO DOWNLOAD)
+       (Membuka langsung di penampil modal dengan kontrol halaman dan zoom)
+       ======================================================================== -->
+  <div class="cert-modal-overlay" id="cert-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="cert-modal-container">
+      <div class="cert-modal-header">
+        <div class="cert-modal-title-wrap">
+          <span class="cert-badge" id="cert-modal-cat">DOKUMEN RESMI</span>
+          <h3 class="cert-modal-title" id="cert-modal-title">Judul Sertifikat</h3>
+        </div>
+        <div class="cert-modal-toolbar">
+          <div class="cert-page-indicator" id="cert-page-indicator">
+            <span id="cert-page-text">Halaman 1 dari 1</span>
+          </div>
+          <div class="cert-zoom-controls">
+            <button type="button" class="cert-tool-btn" id="cert-zoom-out" title="Perkecil (−)">−</button>
+            <span class="cert-zoom-level" id="cert-zoom-level">100%</span>
+            <button type="button" class="cert-tool-btn" id="cert-zoom-in" title="Perbesar (+)">+</button>
+            <button type="button" class="cert-tool-btn" id="cert-zoom-fit" title="Sesuaikan ukuran tampilan">Fit</button>
+          </div>
+          <div class="cert-ext-actions">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="cert-tool-btn" id="cert-open-tab" title="Buka PDF di tab baru">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+              <span>Buka di Tab Baru</span>
+            </a>
+            <a href="#" download class="cert-tool-btn" id="cert-download-link" title="Unduh file PDF">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+              <span>Unduh PDF</span>
+            </a>
+          </div>
+          <button type="button" class="cert-modal-close" id="cert-modal-close" aria-label="Tutup penampil sertifikat">&times; TUTUP</button>
+        </div>
+      </div>
+      <div class="cert-modal-body" id="cert-modal-body">
+        <button type="button" class="cert-nav-float prev" id="cert-float-prev" aria-label="Halaman Sebelumnya">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <div class="cert-canvas-wrap" id="cert-canvas-wrap">
+          <img src="" alt="Dokumen Sertifikat" id="cert-modal-img" class="cert-doc-image">
+        </div>
+        <button type="button" class="cert-nav-float next" id="cert-float-next" aria-label="Halaman Selanjutnya">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+      </div>
+      <div class="cert-thumbnails-strip" id="cert-thumbnails-strip">
+        <!-- Rendered dynamically for multi-page certificates -->
       </div>
     </div>
   </div>

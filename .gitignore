@@ -2,3 +2,6 @@
 *.md
 **/*.md
 *.MD
+
+# Abaikan seluruh folder rules
+rules/
