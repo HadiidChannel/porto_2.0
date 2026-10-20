@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const downloadCvBtn = document.getElementById('download-cv-btn');
   if (downloadCvBtn) {
     downloadCvBtn.addEventListener('click', () => {
-      alert('Dokumen ringkasan CV resmi (PDF) Hadiid Ar Raad siap dikirimkan melalui email. Silakan kirimkan surel ke hadiid.arraad@gmail.com.');
+      alert('Dokumen ringkasan CV resmi (PDF) Hadiid Ar Raad siap dikirimkan melalui email. Silakan kirimkan surel ke hadiidarraad622@gmail.com.');
     });
   }
 });
