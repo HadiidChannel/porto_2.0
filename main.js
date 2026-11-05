@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ==========================================================================
   // 4. Project Screenshot Galleries Data
-  // (All Genuine Screenshots for Every Single One of the 7 Projects)
+  // (All Genuine Screenshots for Every Single One of the Workshop Projects)
   // ==========================================================================
   const projectGalleries = {
     'project-01': [
@@ -239,6 +239,56 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         src: './assets/projects/excel-ai-error.png',
         caption: '03. Diagnostik Formula: Penanganan audit kesalahan rumus dan rekomendasi koreksi kalkulasi'
+      }
+    ],
+    'project-08': [
+      {
+        src: './assets/projects/mediqueue-beranda.png',
+        caption: '01. Beranda Pasien: Kartu reservasi terkonfirmasi, pencarian dokter spesialis, menu layanan faskes, dan filter poli'
+      },
+      {
+        src: './assets/projects/mediqueue-cari-dokter.png',
+        caption: '02. Direktori & Pencarian Dokter: Filter multi-spesialisasi (Umum, Penyakit Dalam, Anak, Jantung), lokasi RS, dan transparansi tarif konsultasi'
+      },
+      {
+        src: './assets/projects/mediqueue-profil-dokter.png',
+        caption: '03. Profil Dokter & Jadwal: Verifikasi legalitas nomor STR & SIP, deskripsi keahlian klinis, tarif, dan sesi jadwal praktik'
+      },
+      {
+        src: './assets/projects/mediqueue-pilih-tanggal.png',
+        caption: '04. Kalender & Jam Praktik: Pemilihan tanggal reservasi kunjungan dan penentuan slot waktu konsultasi dokter yang presisi'
+      },
+      {
+        src: './assets/projects/mediqueue-konfirmasi-reservasi.png',
+        caption: '05. Konfirmasi Reservasi: Validasi identitas pasien (NIK & No. RM), faskes, rincian biaya tanpa biaya tersembunyi, dan catatan keluhan'
+      },
+      {
+        src: './assets/projects/mediqueue-rincian-reservasi.png',
+        caption: '06. Tiket Antrean & Kode Reservasi: Penerbitan nomor antrean (A-001), kode unik, fitur check-in mandiri RS, dan opsi pembatalan'
+      },
+      {
+        src: './assets/projects/mediqueue-antrian-hari-ini.png',
+        caption: '07. Antrean Digital Harian: Pemantauan nomor antrean aktif pasien secara real-time pada tanggal kunjungan faskes'
+      },
+      {
+        src: './assets/projects/mediqueue-reservasi.png',
+        caption: '08. Riwayat Reservasi: Manajemen daftar status kunjungan konsultasi medis (Mendatang, Selesai, dan Dibatalkan)'
+      },
+      {
+        src: './assets/projects/mediqueue-rekam-medis.png',
+        caption: '09. Rekam Medis Digital: Riwayat diagnosis medis terstandar ICD-10 (K29.7, R53.83), resep obat digital, dan dokumen klinis'
+      },
+      {
+        src: './assets/projects/mediqueue-profil.png',
+        caption: '10. Profil & Kartu Pasien: Kartu digital identitas pasien, No. RM (MRN-2026-0001), golongan darah, dan pengaturan privasi'
+      },
+      {
+        src: './assets/projects/mediqueue-login.png',
+        caption: '11. Portal Masuk Pasien: Autentikasi sesi terproteksi dengan kemudahan pengujian via Akun Pasien Demo (Budi Santoso)'
+      },
+      {
+        src: './assets/projects/mediqueue-buat-akun.png',
+        caption: '12. Registrasi Pasien Baru: Pendaftaran akun sesuai identitas KTP, validasi NIK 16 digit, dan verifikasi kode OTP'
       }
     ]
   };
