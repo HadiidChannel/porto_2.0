@@ -290,6 +290,32 @@ document.addEventListener('DOMContentLoaded', () => {
         src: './assets/projects/mediqueue-buat-akun.png',
         caption: '12. Registrasi Pasien Baru: Pendaftaran akun sesuai identitas KTP, validasi NIK 16 digit, dan verifikasi kode OTP'
       }
+    ],
+    'project-09': [
+      {
+        src: './assets/projects/servisku-dashboard.png',
+        caption: '01. Dashboard Beranda: Pemantauan kilometer kendaraan saat ini, ringkasan status jadwal (Terlambat/Segera/Aman), jadwal prioritas, dan biaya bulan ini'
+      },
+      {
+        src: './assets/projects/servisku-kendaraan.png',
+        caption: '02. Kendaraan Saya: Daftar kendaraan terdaftar lengkap dengan model, transmisi, status aktif, dan pembacaan odometer terakhir'
+      },
+      {
+        src: './assets/projects/servisku-tambah-motor.png',
+        caption: '03. Tambah Motor Baru: Formulir pencatatan motor meliputi nama panggilan, merek, model, tipe (Matic/Bebek/Sport), penggerak, tahun, nomor polisi, dan km acuan'
+      },
+      {
+        src: './assets/projects/servisku-pengingat-servis.png',
+        caption: '04. Jadwal & Pengingat Servis: Penentuan interval kilometer/bulan, titik acuan servis terakhir, lead reminder, template perawatan, dan status pemantauan aktif'
+      },
+      {
+        src: './assets/projects/servisku-riwayat-servis.png',
+        caption: '05. Riwayat Servis: Catatan histori perawatan dengan filter per motor, tanggal, rincian pekerjaan (oli mesin, gardan, CVT), bengkel, dan biaya'
+      },
+      {
+        src: './assets/projects/servisku-rekap-biaya.png',
+        caption: '06. Laporan Biaya Perawatan: Rekap total pengeluaran per rentang periode, grafik pengeluaran bulanan, serta rincian persentase kategori pekerjaan'
+      }
     ]
   };
 
